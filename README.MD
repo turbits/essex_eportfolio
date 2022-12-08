@@ -2,7 +2,7 @@
 
 Author: Trevor Woodman
 
-This eportfolio is a repository of code, reflective pieces, and other essays as required by several PGDIPCS courses.
+This eportfolio is a repository of code, reflective pieces, and other essays as required by several *University of Essex, Post Graduate Computer Science Degree* courses.
 
 ## Table of Contents
 
