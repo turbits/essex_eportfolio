@@ -23,9 +23,25 @@ This eportfolio is a repository of code, reflective pieces, and other essays as 
 
 ### Module 2
 
-- [ ] write README for m2
-- [ ] write readme for m2a1, m2a2, m2a3
-- [ ] add docx for m2a1
+- [x] write README for m2
+- [x] write readme for m2a1, m2a2, m2a3
+- [x] add docx for m2a1
 - [ ] add markdown version of m2a1 essay
-- [ ] add code to m2a2
-- [ ] write reflective piece for m2a3
+- [ ] add code to m2a2 [(other repo)](https://github.com/turbits/essex-m2a2)
+- [ ] one artefact from each unit of the module (what the fuck)
+- [ ] write reflective essay for m2a3
+- [ ] add markdown version of m2a3 essay
+- [ ] _artefacts_ from units 1 through 11:
+  - [x] 1
+  - [x] 2
+  - [x] 3
+  - [ ] 4
+  - [ ] 5
+  - [ ] 6
+  - [ ] 7
+  - [ ] 8
+  - [ ] 9
+  - [ ] 10
+  - [ ] 11
+
+### Module 3
