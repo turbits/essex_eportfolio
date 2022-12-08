@@ -2,6 +2,8 @@
 
 This assignment was an 800 word essay regarding the design of data structures and algorithms used in a program. I've included the docx in this folder.
 
+## Requirements
+
 We were given a choice of the type of program we wanted to select, the examples were:
 
 - A phone book
