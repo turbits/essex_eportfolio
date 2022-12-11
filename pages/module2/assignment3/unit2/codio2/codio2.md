@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /pages/module2/assignment3/unit2/codio2/codio2
+published: false
 ---
 
 ## Module 2: Assignment 3: Unit 2: Codio Activity 2

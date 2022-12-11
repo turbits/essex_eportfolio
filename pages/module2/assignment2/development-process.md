@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /pages/module2/assignment2/development-process
+published: false
 ---
 
 ### Development Process

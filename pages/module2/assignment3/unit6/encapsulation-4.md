@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /pages/module2/assignment3/unit6/encapsulation-4
+published: false
 ---
 
 # 5. Encapsulation Formative Assessment 1

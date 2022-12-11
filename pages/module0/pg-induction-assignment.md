@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /pages/module0/pg-induction-assignment
+published: false
 ---
 
 ## Module 0: PGDip Computer Science Induction Assignment

@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /pages/module2/assignment3/reflective-essay
+published: false
 ---
 
 ## Module 2: Assignment 3: Reflective Essay
