@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit8/formative-assessment-2.hmtl
+permalink: /pages/module2/assignment3/unit8/formative-assessment-2.html
 ---
 
 ## Module 2: Assignment 3: Unit 8: Formative Assessment 2
