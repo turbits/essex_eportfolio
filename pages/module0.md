@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Module 0
-permalink: /:path
+permalink: /pages/module0/
 ---
 
 ## ✨Module 0: Induction

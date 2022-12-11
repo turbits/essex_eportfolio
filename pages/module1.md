@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Module 1
-permalink: /pages/module1
+permalink: /pages/module1/
 ---
 
 ## 🧑‍💻Module 1: Launching into Computer Science

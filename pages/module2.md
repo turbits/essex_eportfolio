@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Module 2"
-permalink: /pages/module2
+permalink: /pages/module2/
 ---
 
 ## 📦️Module 2: Object Oriented Programming
