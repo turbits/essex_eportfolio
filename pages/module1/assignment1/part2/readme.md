@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /pages/module1/assignment1/part2/readme
-published: false
 ---
 
 # Description of Implementation README
