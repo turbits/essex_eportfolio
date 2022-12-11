@@ -9,7 +9,7 @@ This Codio activity contains two parts, the first is the general unit work and t
 
 ### Table of Contents
 
-- 📝[Classes and Objects - Markdown](/pages/module2/assignment3/unit2/codio1/classes-objects)
+- 📝[Classes and Objects - Markdown](/pages/module2/assignment3/unit2/codio1/classes-objects.html)
 - 🧑‍💻[Classes and Objects - Python (Download)](./classes-objects.py)
-- 📝[Classes and Objects Labs - Markdown](/pages/module2/assignment3/unit2/codio1/classes-objects-labs)
+- 📝[Classes and Objects Labs - Markdown](/pages/module2/assignment3/unit2/codio1/classes-objects-labs.html)
 - 🧑‍💻[Classes and Objects Labs - Python (Download)](./classes-objects-labs.py)
