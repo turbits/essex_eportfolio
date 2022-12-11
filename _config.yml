@@ -22,9 +22,9 @@ title: Trevor's University of Essex ePortfolio
 # email:
 description: >- # this means to ignore newlines until "baseurl:"
   University of Essex ePortfolio for Trevor Woodman
-domain: "turbits.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://turbits.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "essex.trevorwoodman.ca"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://essex.trevorwoodman.ca" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
 # github_username:
 
