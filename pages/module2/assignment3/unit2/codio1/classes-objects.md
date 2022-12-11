@@ -8,8 +8,6 @@ permalink: /pages/module2/assignment3/unit2/codio1/classes-objects
 ### Code
 
 ```python
-# (main.py)
-
 import math
 import copy
 
