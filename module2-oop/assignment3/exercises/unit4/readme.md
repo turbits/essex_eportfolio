@@ -16,5 +16,8 @@ Remember to record your responses in your e-portfolio.
 ## Requirements
 
 - Activity diagram
+  _- See M2A3U4-ActivityDiagram.jpeg in this folder_
 - Class diagram
-- A Python program to implement the class model (and keeping the activity diagram into mind)
+  _- See M2A3U4-ClassDiagram-Point.jpeg in this folder_
+- A Python program to implement the class model (and keeping the activity diagram in mind)
+  - See [this repository](https://github.com/turbits/essex_module2_unit_programs/tree/main/unit4) for the code

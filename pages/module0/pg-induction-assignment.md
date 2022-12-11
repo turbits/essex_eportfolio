@@ -1,4 +1,9 @@
-# PG Induction Assignment
+---
+layout: page
+permalink: /pages/module0/pg-induction-assignment
+---
+
+## Module 0: PGDip Computer Science Induction Assignment
 
 In a modern society that progressively relies on and retains valuable and often confidential information, experience and knowledge of how to manage, maintain, and safeguard that flow of information is paramount. The people in charge of today's computing infrastructure are highly skilled and educated, with many employers mandating certification and an undergraduate level education at a minimum. Given these strict education requirements and to distinguish me from most applicants, I have enrolled in the Computer Science postgraduate diploma degree. Let us observe a few points of discussion concerning the importance of acquiring a postgraduate degree in computer science.
 
@@ -10,7 +15,7 @@ A crucial benefit of getting a postgraduate diploma in computer science is stren
 
 In conclusion, with the outlook on computer science positions being favourable and, in some cases, considerably higher than most occupations, acquiring a postgraduate degree will provide a competitive edge to a career in the field. This demand is perpetual and will only continue to grow as we move towards a hyper-connected society both in the traditional sense and in ways we currently only dream of.
 
-## References:
+### References:
 
 IBM. (2021) Cost of a Data Breach Report 2021. Available from: [https://www.ibm.com/downloads/cas/OJDVQGRY](https://www.ibm.com/downloads/cas/OJDVQGRY) [Accessed June 4, 2022]
 
