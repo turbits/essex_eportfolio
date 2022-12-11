@@ -1,6 +1,11 @@
-## Development Process
+---
+layout: page
+permalink: /pages/module2/assignment2/development-process
+---
 
-I began the development of this program with the previous module, available [here](https://github.com/turbits/essex-m2a1) as an essay. The overall premise was to design a partial autonomous vehicle system that contained three processes present in autonomous vehicles. I chose [Lane-keeping Assist (LKA)](https://tc.canada.ca/en/road-transportation/driver-assistance-technologies/lane-keeping-assistance), [Automatic Emergency Braking (AEB)](https://tc.canada.ca/en/road-transportation/driver-assistance-technologies/automatic-emergency-braking), and [Adaptive Cruise Control (ACC)](https://tc.canada.ca/en/road-transportation/driver-assistance-technologies/adaptive-cruise-control). These three systems I felt represented separate concerns as far as autonomy in a vehicle goes, with LKA controlling the direction of the vehicle, ACC controlling cruising speed, and AEB representing one of many critical safety systems designed to assist or take over in the event of an emergency detection.
+### Development Process
+
+I began the development of this program with the previous assignment, available [here](/pages/module2/assignment1) as an essay. The overall premise was to design a partial autonomous vehicle system that contained three processes present in autonomous vehicles. I chose [Lane-keeping Assist (LKA)](https://tc.canada.ca/en/road-transportation/driver-assistance-technologies/lane-keeping-assistance), [Automatic Emergency Braking (AEB)](https://tc.canada.ca/en/road-transportation/driver-assistance-technologies/automatic-emergency-braking), and [Adaptive Cruise Control (ACC)](https://tc.canada.ca/en/road-transportation/driver-assistance-technologies/adaptive-cruise-control). These three systems I felt represented separate concerns as far as autonomy in a vehicle goes, with LKA controlling the direction of the vehicle, ACC controlling cruising speed, and AEB representing one of many critical safety systems designed to assist or take over in the event of an emergency detection.
 
 Unfortunately, due to time constraints, the program is obviously not a full design and implementation of an autonomous vehicle or the aforementioned systems, but serves as a representation of what one could look like. The backend generated information is basic and the functions of the vehicle are heavily simplified, i.e., they are immediate and do not take into account factors that would be exhibited on a real-world equivalent. In other words, they ignore physics. For example, if the vehicle is going 40km/h and the AEB detects an emergency stop is required, the vehicle's speed is set to 0 and the stop is immediate.
 
