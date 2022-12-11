@@ -11,10 +11,6 @@ permalink: /todo
 ### Module 2
 
 - [ ] add markdown version of m2a1 essay
-- [ ] add code to m2a2 [(other repo)](https://github.com/turbits/essex-m2a2)
-- [ ] one artefact from each unit of the module
-- [ ] write reflective essay for m2a3
-- [ ] add markdown version of m2a3 essay
 - [ ] _artefacts_ from units 1 through 11:
   - [x] 1
   - [x] 2
