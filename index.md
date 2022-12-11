@@ -13,5 +13,5 @@ This is the ePortfolio of Trevor Woodman, a student in the _University of Essex,
 ## Table of Contents
 
 - [Module 0 - Induction](/pages/module0)
-- [Module 1 - Launching into Computer Science](module1-intro-to-cs/)
-- [Module 2 - Object Oriented Programming](module2-data-structures/)
+- [Module 1 - Launching into Computer Science](/pages/module1)
+- [Module 2 - Object Oriented Programming](/pages/module2)
