@@ -9,5 +9,5 @@ This Codio activity contains one part, class methods.
 
 ### Table of Contents
 
-- 📝[Class Methods](/pages/module2/assignment3/unit2/codio2/class-methods)
+- 📝[Class Methods - Markdown](/pages/module2/assignment3/unit2/codio2/class-methods)
 - 🧑‍💻[Class Methods - Python (Download)](./class-methods.py)
