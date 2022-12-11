@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Module 0
-permalink: /pages/module0/
+permalink: /pages/module0.html
 ---
 
 ## ✨Module 0: Induction
@@ -15,7 +15,7 @@ As part of the induction, we were to write a 750 word essay on the topic of "Dis
 ### Table of Contents
 
 - [Induction Essay - docx (Clicking this will download it)](/pages/module0/pg-induction-assignment-tw.docx)
-- [Induction Essay - Markdown](/pages/module0/pg-induction-assignment)
+- [Induction Essay - Markdown](/pages/module0/pg-induction-assignment.html)
 
 ### Grading
 

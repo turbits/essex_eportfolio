@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit1/discussion
-published: false
+permalink: /pages/module2/assignment3/unit1/discussion.html
 ---
 
 ## Module 2: Assignment 3: Unit 1: Discussion

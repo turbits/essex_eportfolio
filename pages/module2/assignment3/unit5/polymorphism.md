@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit5/polymorphism
-published: false
+permalink: /pages/module2/assignment3/unit5/polymorphism.html
 ---
 
 ## Module 2: Assignment 3: Unit 5: Polymorphism

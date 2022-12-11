@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/reflective-essay
-published: false
+permalink: /pages/module2/assignment3/reflective-essay.html
 ---
 
 ## Module 2: Assignment 3: Reflective Essay

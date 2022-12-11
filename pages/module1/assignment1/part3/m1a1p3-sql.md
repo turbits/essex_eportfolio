@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module1/assignment1/part3/m1a1p3-sql
-published: false
+permalink: /pages/module1/assignment1/part3/m1a1p3-sql.html
 ---
 
 ## Module 1: Assignment 1: Part 3: SQL

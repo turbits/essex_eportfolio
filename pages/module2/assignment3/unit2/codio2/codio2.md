@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit2/codio2/codio2
-published: false
+permalink: /pages/module2/assignment3/unit2/codio2/codio2.html
 ---
 
 ## Module 2: Assignment 3: Unit 2: Codio Activity 2
@@ -10,5 +9,5 @@ This Codio activity contains one part, class methods.
 
 ### Table of Contents
 
-- 📝[Class Methods - Markdown](/pages/module2/assignment3/unit2/codio2/class-methods)
+- 📝[Class Methods - Markdown](/pages/module2/assignment3/unit2/codio2/class-methods.html)
 - 🧑‍💻[Class Methods - Python (Download)](./class-methods.py)

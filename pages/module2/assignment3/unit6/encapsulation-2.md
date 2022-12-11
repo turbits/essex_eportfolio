@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit6/encapsulation-2
-published: false
+permalink: /pages/module2/assignment3/unit6/encapsulation-2.html
 ---
 
 ## Module 2: Assignment 3: Unit 6: Encapsulation 2

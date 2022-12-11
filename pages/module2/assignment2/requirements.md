@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment2/requirements
-published: false
+permalink: /pages/module2/assignment2/requirements.html
 ---
 
 ## Assignment Requirements and Results

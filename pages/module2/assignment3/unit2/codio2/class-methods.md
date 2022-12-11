@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit2/codio2/class-methods
-published: false
+permalink: /pages/module2/assignment3/unit2/codio2/class-methods.html
 ---
 
 ## Module 2: Assignment 3: Unit 2: Codio Activity 2: Class Methods

@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module1/assignment1/part3/readme
-published: false
+permalink: /pages/module1/assignment1/part3/readme.html
 ---
 
 ## Module 1: Assignment 1: Part 3: Readme

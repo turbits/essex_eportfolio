@@ -1,7 +1,6 @@
 ---
 layout: page
-permalink: /pages/module2/assignment3/unit7/code
-published: false
+permalink: /pages/module2/assignment3/unit7/code.html
 ---
 
 ## Module 2: Assignment 3: Unit 7: Code
