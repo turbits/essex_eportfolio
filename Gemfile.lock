@@ -256,7 +256,7 @@ PLATFORMS
   x64-unknown
 
 DEPENDENCIES
-  github-pages (= 227)
+  github-pages
   http_parser.rb (~> 0.6.0)
   minima
   tzinfo (>= 1, < 3)
