@@ -1,11 +1,7 @@
 # +===================================================================+
-# codio-results.py - showing all results/outputs from the codio
-# exercises from Unit 2
-# +===================================================================+
 # Author: Trevor Woodman
 # Github: https://github.com/turbits
-# Repo: https://github.com/turbits/essex_eportfolio/tree/main/module2-oop/assignment3/unit2
-# Project: Module 2 (OOP_PCOM7E), Assignment 3, Unit 2: Codio
+# Repo: https://github.com/turbits/essex_eportfolio
 # Course: Object Oriented Programming (OOP_PCOM7E September 2022)
 # School: University of Essex
 # Date: September-December, 2022
