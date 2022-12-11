@@ -14,9 +14,9 @@ There were three assessed assignment parts for this module, each of which is lis
 
 ### Table of Contents
 
-- [Assignment 1: Part 1 - Data Structures and Algorithm Design](/pages/module1/assignment1/part1/m1a1p1)
-- [Assignment 1: Part 2 - Algorithm and Programming Development](/pages/module1/assignment1/part2/m1a1p2)
-- [Assignment 1: Part 3 - MySQL](/pages/module1/assignment1/part3/m1a1p3)
+- [Assignment 1: Part 1 - Data Structures and Algorithm Design](/pages/module1/assignment1/part1/m1a1p1.html)
+- [Assignment 1: Part 2 - Algorithm and Programming Development](/pages/module1/assignment1/part2/m1a1p2.html)
+- [Assignment 1: Part 3 - MySQL](/pages/module1/assignment1/part3/m1a1p3.html)
 
 ### Grading
 
