@@ -10,9 +10,9 @@ This module is titled "Object Oriented Programming". It is the second module in 
 
 ### Table of Contents
 
-- [Assignment 1: System Design](/pages/module2/assignment1)
-- [Assignment 2: System Implementation](/pages/module2/assignment2)
-- [Assignment 3: e-Portfolio](/pages/module2/assignment3)
+- [Assignment 1: System Design](/pages/module2/assignment1.html)
+- [Assignment 2: System Implementation](/pages/module2/assignment2.html)
+- [Assignment 3: e-Portfolio](/pages/module2/assignment3.html)
 
 ### Grading
 
