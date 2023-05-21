@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<article class="post">
+
+  {% if page.hero %}
+    <img class="hero-img" height="auto" width="100%" src="{{ page.hero | prepend: site.baseurl | prepend: site.url }}" alt="hero image"/>
+  {% endif %}
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.closer %}
+    <img class="closer-img" height="auto" width="100%" src="{{ page.closer | prepend: site.baseurl | prepend: site.url }}" alt="closer image"/>
+  {% endif %}
+
+</article>
