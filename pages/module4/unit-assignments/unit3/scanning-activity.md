@@ -3,7 +3,7 @@ layout: page
 permalink: /pages/module4/unit-assignments/unit3/scanning-activity.html
 ---
 
-⬅️[Back](/pages/module4.html)
+⬅️[Back](/pages/module4/unit-assignments/unit3/m4u3.html)
 
 ## Unit 3: Scanning Activity
 
