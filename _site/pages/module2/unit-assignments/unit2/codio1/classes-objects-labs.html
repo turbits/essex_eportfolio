@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module2/unit-assignments/unit2/codio1/classes-objects-labs.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module2/unit-assignments/unit2/codio1/classes-objects-labs.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module2/unit-assignments/unit2/codio1/classes-objects-labs.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module2/unit-assignments/unit2/codio1/codio1.html">Back</a></p>
+
+<h1 id="module-2-assignment-3-unit-2-codio-activity-1-classes-and-objects-labs">Module 2: Assignment 3: Unit 2: Codio Activity 1: Classes and Objects Labs</h1>
+
+<h2 id="code">Code</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># +============= TUTORIAL LAB 1: CREATING A CLASS =============+
+</span><span class="k">print</span> <span class="sh">"</span><span class="s">Tutorial Lab 1 - Creating a Class:</span><span class="sh">"</span>
+<span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+  <span class="sh">"""</span><span class="s">Represents a generic person.</span><span class="sh">"""</span>
+
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">first</span><span class="p">,</span> <span class="n">last</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">height</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">first_name</span> <span class="o">=</span> <span class="n">first</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">last_name</span> <span class="o">=</span> <span class="n">last</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">weight_in_lbs</span> <span class="o">=</span> <span class="n">weight</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">height_in_inches</span> <span class="o">=</span> <span class="n">height</span>
+<span class="nf">print</span><span class="p">(</span><span class="nf">type</span><span class="p">(</span><span class="n">Person</span><span class="p">))</span>
+
+<span class="c1"># +============= TUTORIAL LAB 2: INSTANTIATE A CLASS =============+
+</span><span class="k">print</span> <span class="sh">"</span><span class="s">Tutorial Lab 2 - Instantiate a Class:</span><span class="sh">"</span>
+<span class="n">_p</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">Tom</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Thumb</span><span class="sh">"</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">78</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">{} {} weighs {} lbs and is {} inches tall.</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">_p</span><span class="p">.</span><span class="n">first_name</span><span class="p">,</span> <span class="n">_p</span><span class="p">.</span><span class="n">last_name</span><span class="p">,</span> <span class="n">_p</span><span class="p">.</span><span class="n">weight_in_lbs</span><span class="p">,</span> <span class="n">_p</span><span class="p">.</span><span class="n">height_in_inches</span><span class="p">))</span>
+
+<span class="c1"># +============= TUTORIAL LAB 3: MODIFY INSTANCE DATA MEMBERS =============+
+</span><span class="k">print</span> <span class="sh">"</span><span class="s">Tutorial Lab 3 - Modify Instance Data Members:</span><span class="sh">"</span>
+<span class="n">_p</span><span class="p">.</span><span class="n">first_name</span> <span class="o">=</span> <span class="sh">"</span><span class="s">George</span><span class="sh">"</span>
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">{} {} weighs {} lbs and is {} inches tall.</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">_p</span><span class="p">.</span><span class="n">first_name</span><span class="p">,</span> <span class="n">_p</span><span class="p">.</span><span class="n">last_name</span><span class="p">,</span> <span class="n">_p</span><span class="p">.</span><span class="n">weight_in_lbs</span><span class="p">,</span> <span class="n">_p</span><span class="p">.</span><span class="n">height_in_inches</span><span class="p">))</span>
+
+<span class="c1"># +============= MODULE 9 CHALLENGE =============+
+</span><span class="k">print</span> <span class="sh">"</span><span class="s">Module 9 Challenge:</span><span class="sh">"</span>
+<span class="n">person1</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">Tom</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Thumb</span><span class="sh">"</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">70</span><span class="p">)</span>
+<span class="n">person2</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">George</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Thumb</span><span class="sh">"</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mi">75</span><span class="p">)</span>
+<span class="n">person3</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">Jimmy</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Thumb</span><span class="sh">"</span><span class="p">,</span> <span class="mi">250</span><span class="p">,</span> <span class="mi">85</span><span class="p">)</span>
+<span class="n">person4</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">Sally</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Thumb</span><span class="sh">"</span><span class="p">,</span> <span class="mi">120</span><span class="p">,</span> <span class="mi">65</span><span class="p">)</span>
+<span class="n">person5</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">Jane</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">Thumb</span><span class="sh">"</span><span class="p">,</span> <span class="mi">130</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+<span class="n">person_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">person1</span><span class="p">,</span> <span class="n">person2</span><span class="p">,</span> <span class="n">person3</span><span class="p">,</span> <span class="n">person4</span><span class="p">,</span> <span class="n">person5</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">person</span> <span class="ow">in</span> <span class="n">person_list</span><span class="p">:</span>
+  <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">{}</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">person</span><span class="p">.</span><span class="n">first_name</span><span class="p">))</span>
+</code></pre></div></div>
+
+<h2 id="output">Output:</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Tutorial Lab 1 - Creating a Class:
+&lt;type 'classobj'&gt;
+Tutorial Lab 2 - Instantiate a Class:
+Tom Thumb weighs 150 lbs and is 78 inches tall.
+Tutorial Lab 3 - Modify Instance Data Members:
+George Thumb weighs 150 lbs and is 78 inches tall.
+Module 9 Challenge:
+Tom
+George
+Jimmy
+Sally
+Jane
+</code></pre></div></div>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

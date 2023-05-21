@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-python.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-python.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-python.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/unit-assignments/unit3/codio/m3u3-codio.html">Back</a></p>
+
+<h1 id="module-3-unit-3-codio-activity-1-buffer-overflow-in-python">Module 3: Unit 3: Codio Activity 1: Buffer Overflow in Python</h1>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>Now carry out a comparison of this code with one in Python (Buffer Overflow in Python), following these instructions:</p>
+
+<p>In the Codio workspace, you will be using the file called Overflow.py:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">buffer</span><span class="o">=</span><span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="mi">10</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range </span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
+    <span class="nb">buffer</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="mi">7</span>
+<span class="nf">print</span><span class="p">(</span><span class="nb">buffer</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Run your code using: Python overflow.py (or use the codio rocket icon). What is the result?</li>
+</ul>
+
+<p>There is no rocket icon, but running this code produces:</p>
+
+<p>$ py bufferoverflow.py</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Traceback (most recent call last):
+  File "C:\dev\python_files\bufferoverflow.py", line 3, in &lt;module&gt;
+    buffer[i] = 7
+    ~~~~~~^^^
+IndexError: list assignment index out of range
+</code></pre></div></div>
+
+<ul>
+  <li>Read about Pylint at http://pylint.pycqa.org/en/latest/tutorial.html
+    <ul>
+      <li>Install pylint using the following commands:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">pip install pylint</code> (in the command shell/ interpreter)</li>
+          <li>Run pylint on one of your files and evaluate the output:</li>
+          <li><code class="language-plaintext highlighter-rouge">pylint your_file</code></li>
+          <li>(Make sure you are in the directory where your file is located before running Pylint)</li>
+          <li>What is the result? Does this tell you how to fix the error above?</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Running <code class="language-plaintext highlighter-rouge">pylint bufferoverflow.py</code> produces:</p>
+
+<p>$ pylint bufferoverflow.py</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>************* Module bufferoverflow
+bufferoverflow.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+</code></pre></div></div>
+
+<p>The error message is not helpful in relation to the out of range error; it also appears to be failing on the first thing that it considers an issue. I am running flake8 in my VSCode editor, and it is reporting several warnings:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>missing whitespace around operator (E225) Ln 1 Col 7
+missing whitespace around arithmetic operator (E226) Ln 1 Col 14
+whitespace before '{' (E211) Ln 2 Col 15
+missing whitespace after ',' (E231) Ln 2 Col 17
+missing whitespace around operator (E225) Ln 3 Col 14
+</code></pre></div></div>
+
+<p>To fix the error, we would need to change the code to not attempt to assign a value to an index that is out of range. We can do this by changing the code to:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">buffer</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>  <span class="c1"># changing from 0, 11 to 0, 10 to avoid the error
+</span>    <span class="nb">buffer</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="nf">print</span><span class="p">(</span><span class="nb">buffer</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The output is now:</p>
+
+<p>$ py bufferoverflow.py</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+</code></pre></div></div>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

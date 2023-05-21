@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module2/unit-assignments/unit10/importing-modules.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module2/unit-assignments/unit10/importing-modules.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module2/unit-assignments/unit10/importing-modules.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="module-2-unit-10-importing-modules">Module 2: Unit 10: Importing Modules</h1>
+
+<h2 id="code">Code</h2>
+
+<p>(employee.py)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Employee</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">salary</span><span class="p">):</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">salary</span> <span class="o">=</span> <span class="n">salary</span>
+
+  <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Employee: {}</span><span class="se">\n</span><span class="s">Title: {}</span><span class="se">\n</span><span class="s">Salary: {}</span><span class="sh">'</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">title</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">salary</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">greeting</span><span class="p">():</span>
+  <span class="nf">print</span><span class="p">(</span><span class="sh">'</span><span class="s">Hello from the employee module</span><span class="sh">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>(program.py)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># import employee
+</span><span class="kn">from</span> <span class="n">employee</span> <span class="kn">import</span> <span class="n">Employee</span><span class="p">,</span> <span class="n">greeting</span>
+
+<span class="c1"># emp = employee.Employee('Trevor Woodman', 'Student', 10)
+</span><span class="n">emp</span> <span class="o">=</span> <span class="nc">Employee</span><span class="p">(</span><span class="sh">'</span><span class="s">Trevor Woodman</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">Student</span><span class="sh">'</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">emp</span><span class="p">.</span><span class="nf">display</span><span class="p">()</span>
+
+<span class="nf">greeting</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="output">Output</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Employee: Trevor Woodman
+Title: Student
+Salary: 10
+Hello from the employee module
+</code></pre></div></div>
+
+<h2 id="reading-question">Reading Question</h2>
+
+<p>“Select all of the ways you should import a module. Hint, there is more than one correct answer.”</p>
+
+<p>Answer (Correct): import my_module
+Answer (Correct): from my_module import MyClass</p>
+
+<p>Feedback:
+The correct answers are import my_module and from my_module import MyClass.</p>
+
+<p>While from my_module import * is technically valid Python code, programmers are encourage to avoid the wildcard when importing from modules.</p>
+
+<p>When importing, you always start with the the module name. Either import the entire module, import my_module or indicate the module then import the item, from my_module import MyClass. Do not start with the item name.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

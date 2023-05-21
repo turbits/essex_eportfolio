@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module2/unit-assignments/unit8/formative-assessment-1.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module2/unit-assignments/unit8/formative-assessment-1.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module2/unit-assignments/unit8/formative-assessment-1.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module2/unit-assignments/unit8/m2u8.html">Back</a></p>
+
+<h1 id="module-2-unit-8-formative-assessment-1">Module 2: Unit 8: Formative Assessment 1</h1>
+
+<p>“Rearrange the code blocks below to create a recursive function that finds the sum of <code class="language-plaintext highlighter-rouge">n</code> integers. For example, <code class="language-plaintext highlighter-rouge">find_sum(5)</code> would add up the numbers 0 to 5. Note, you must use a docstring, and not all of the blocks will be used.”</p>
+
+<p>Answer:
+The docstring wasn’t indented correctly but otherwise the answer was correct.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">find_sum</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+  <span class="sh">"""</span><span class="s">Recursively calculate the sum of the first n numbers</span><span class="sh">"""</span>
+  <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">return</span> <span class="mi">0</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">n</span> <span class="o">+</span> <span class="nf">find_sum</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Feedback:</p>
+
+<p>Start off with the function header and docstring. The next line of code is the base case if n == 0:. Recursive functions return values, they do not print them. Ignore the code block that says print(0), and use return 0. Next is the else statement. There are two incorrect blocks for the recursive case. First, ignore the code block that says return(n - find_sum(n-1)). The function should find the sum, but this code block is subtracting from n. Also, the recursive function call should move n closer to the base case. Since the base case is 0, n should get smaller. Use the code block that says, return(n + find_sum(n-1)).</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

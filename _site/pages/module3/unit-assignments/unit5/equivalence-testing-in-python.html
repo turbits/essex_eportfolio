@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit5/equivalence-testing-in-python.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit5/equivalence-testing-in-python.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit5/equivalence-testing-in-python.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/unit-assignments/unit5/m3u5.html">Back</a></p>
+
+<h1 id="module-3-unit-3-codio-activity-equivalence-testing-in-python">Module 3: Unit 3: Codio Activity: Equivalence Testing in Python</h1>
+
+<h2 id="assignment-instructions">Assignment Instructions</h2>
+
+<p>Run equivalence.py in the Codio workspace - Testing with Python - which is an implementation of equivalence partitioning. This test partitions integers [-3,5] into equivalence classes based on <code class="language-plaintext highlighter-rouge">lambda x, y: (x-y)%4 == 0</code>.</p>
+
+<p>In the output, you should be able to see how a set of objects to be partitioned are considered, and a function evaluates if the two objects are equivalent before printing the result.</p>
+
+<p>test_equivalence_partition() produces the following output:</p>
+
+<p><code class="language-plaintext highlighter-rouge">set([1, -3]) set([2, -2]) set([3, -1]) set([0, 4]) 0 : set([0, 4]) 1 : set([1, -3]) 2 : set([2, -2]) 3 : set([3, -1]) 4 : set([0, 4]) -2 : set([2, -2]) -3 : set([1, -3]) -1 : set([3, -1])</code></p>
+
+<p>You should carry out further investigations on the code and experiment with it.</p>
+
+<p>Remember to record your results, ideas and team discussions in your e-portfolio.</p>
+
+<h2 id="my-reflections">My Reflections</h2>
+
+<h3 id="default-run-of-equivalencepy">Default Run of equivalence.py</h3>
+
+<p>codio@kansaslegacy-diagramsantana:~/workspace$ python equivalence.py</p>
+
+<p>ran with <code class="language-plaintext highlighter-rouge">range(-3, 5)</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">])</span>
+<span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+<span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">]))</span>
+<span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
+<span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">]))</span>
+<span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+</code></pre></div></div>
+
+<h3 id="modifying-the-range">Modifying the range</h3>
+
+<p>codio@kansaslegacy-diagramsantana:~/workspace$ python equivalence.py</p>
+
+<p>ran with <code class="language-plaintext highlighter-rouge">range(-3, 10)</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+<span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+<span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">])</span>
+<span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">]))</span>
+<span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">]))</span>
+<span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">]))</span>
+<span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">]))</span>
+<span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="sh">'</span><span class="s">:</span><span class="sh">'</span><span class="p">,</span> <span class="nf">set</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">]))</span>
+</code></pre></div></div>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

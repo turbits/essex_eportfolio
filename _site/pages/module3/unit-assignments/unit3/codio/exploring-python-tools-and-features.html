@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit3/codio/exploring-python-tools-and-features.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit3/codio/exploring-python-tools-and-features.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit3/codio/exploring-python-tools-and-features.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/unit-assignments/unit3/codio/m3u3-codio.html">Back</a></p>
+
+<h1 id="module-3-unit-3-codio-activity-1-exploring-python-tools-and-features">Module 3: Unit 3: Codio Activity 1: Exploring Python Tools and Features</h1>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+  <li>📃<a href="/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-c.html">Buffer Overflow in C</a></li>
+  <li>📃<a href="/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-python.html">Buffer Overflow in Python</a></li>
+</ul>
+
+<h2 id="assignment-instructions">Assignment Instructions</h2>
+
+<h3 id="part-i">Part I</h3>
+
+<p>In this example, you will compile and run a program in C using the Codio workspace provided (Buffer Overflow in C). The program is already provided as bufoverflow.c - a simple program that creates a buffer and then asks you for a name, and prints it back out to the screen.</p>
+
+<p>This is the code in bufoverflow.c (also available in the Codio workspace):</p>
+
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="c1"> </span><span class="cp">
+</span><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="kt">char</span> <span class="n">buf</span><span class="p">[</span><span class="mi">8</span><span class="p">];</span> <span class="c1">// buffer for eight characters</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"enter name:"</span><span class="p">);</span> 
+<span class="n">gets</span><span class="p">(</span><span class="n">buf</span><span class="p">);</span> <span class="c1">// read from stdio (sensitive function!)</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">buf</span><span class="p">);</span> <span class="c1">// print out data stored in buf</span>
+<span class="k">return</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">// 0 as return value</span>
+<span class="p">{</span> <span class="c1">// Trevor Note: this was how it appeared in the assignment page, but this should be '}'</span>
+</code></pre></div></div>
+
+<p>Now compile and run the code. To test it, enter your first name (or at least the first 8 characters of it) you should get the output which is just your name repeated back to you.</p>
+
+<p>Run the code a second time (from the command window this can be achieved by entering ./bufoverflow on the command line). This time, enter a string of 10 or more characters.</p>
+<ul>
+  <li>What happens?</li>
+  <li>What does the output message mean?</li>
+</ul>
+
+<h3 id="part-ii">Part II</h3>
+
+<p>Now carry out a comparison of this code with one in Python (Buffer Overflow in Python), following these instructions:</p>
+
+<p>In the Codio workspace, you will be using the file called Overflow.py:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">buffer</span><span class="o">=</span><span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="mi">10</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range </span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
+    <span class="nb">buffer</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="mi">7</span>
+<span class="nf">print</span><span class="p">(</span><span class="nb">buffer</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Run your code using: Python overflow.py (or use the codio rocket icon)</p>
+<ul>
+  <li>What is the result?</li>
+  <li>Read about Pylint at http://pylint.pycqa.org/en/latest/tutorial.html</li>
+  <li>Install pylint using the following commands:
+    <ul>
+      <li>pip install pylint (in the command shell/ interpreter)</li>
+    </ul>
+  </li>
+  <li>Run pylint on one of your files and evaluate the output:
+    <ul>
+      <li>pylint your_file</li>
+    </ul>
+  </li>
+  <li>(Make sure you are in the directory where your file is located before running Pylint)</li>
+  <li>What is the result? Does this tell you how to fix the error above?</li>
+</ul>
+
+<p>Be prepared to discuss your thoughts on both exercises at next week’s seminar. Remember to record this into your e-portfolio.</p>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

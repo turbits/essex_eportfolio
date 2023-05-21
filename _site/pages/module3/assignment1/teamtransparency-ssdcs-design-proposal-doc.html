@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/assignment1/teamtransparency-ssdcs-design-proposal-doc.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/assignment1/teamtransparency-ssdcs-design-proposal-doc.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/assignment1/teamtransparency-ssdcs-design-proposal-doc.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="http://localhost:4000//favicon.png" />
+  </head>
+<body><header class="site-header">
+
+    <div class="wrapper"><!-- <a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a> -->
+      <a class="site-title" rel="author" href="/">
+        <img height="80px" width="auto" src="http://localhost:4000//assets/wsg_logo.png" alt="Trevor&#39;s University of Essex ePortfolio" />
+        <div class="site-title-text">
+          <p class="title-text">TREVOR WOODMAN</p>
+          <p class="subtitle-text">UoEO ePortfolio</p>
+        </div>
+      </a></div>
+  </header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/assignment1/m3a1.html">Back</a></p>
+
+<p><a href="https://github.com/turbits/essex-eportfolio">https://github.com/turbits/essex-eportfolio</a>  - <a href="https://essex.trevorwoodman.ca">https://essex.trevorwoodman.ca</a></p>
+
+<h1 id="iss-data-archive-ida-software-design-document">ISS Data Archive (IDA) Software Design Document</h1>
+
+<p>Secure Software Development - Assignment 1: Secure Repository Team Design Document</p>
+
+<p>University of Essex Online</p>
+
+<h2 id="team-transparency-members">Team Transparency Members</h2>
+
+<p>Abassi, Daud A., Adams, Uthman., Calder, Dheeran., Woodman, Trevor</p>
+
+<h2 id="domain">Domain</h2>
+
+<p>The International Space Station (ISS) is the product of a multi-national construction project of the largest structure humans have ever built in space. The ISS is in low-earth orbit and, on average, hosts an international crew of seven people (NASA, 2023). The estimated daily average of mission-related data handled on the Space Network is approximately 28TB per day (Jacobson &amp; Hume, 2017).</p>
+
+<h2 id="objective">Objective</h2>
+
+<p>To facilitate and securely store the constant stream of mission data coming from the ISS, the programme has contracted Team Transparency to develop and deploy a software system that will provide a secure repository for data transmitted from the International Space Station to ground stations owned and operated by members of the ISS programme. This system has been given the moniker “IDA”, ISS Data Archive.</p>
+
+<h2 id="assumptions">Assumptions</h2>
+
+<p>This document assumes the highest standard of both physical and cyber security. Ground stations should be physically secured, e.g., security personnel and systems should be used in conjunction with strict personnel identity verification. Any networks and systems at the ground stations should be secured, hardened, and maintained.</p>
+
+<h2 id="user-roles">User Roles</h2>
+
+<p>User:</p>
+
+<ul>
+  <li>Can read the data</li>
+  <li>Can update the data</li>
+</ul>
+
+<p>Admin:</p>
+
+<ul>
+  <li>In addition to User permissions:
+    <ul>
+      <li>Can delete the data</li>
+      <li>Can view the event logs</li>
+      <li>Can manage users</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="software-specification">Software Specification</h2>
+
+<p>Mission-related data is encrypted prior to being transported via the Space Network down to a base station, where it is decrypted and stored on-site for later user access.</p>
+
+<p>The IDA prototype is comprised of Bottle running the backend &amp; web server and HTML &amp; CSS presenting a simple GUI. The data is stored in a SQLite database and communicated with via the Bottle backend.</p>
+
+<p>The DataService microservice processes the data stream, decrypts incoming ISS data with the cryptography Python library using Fernet symmetric cryptography and stores the data in the local SQLite database. It also responds to requests made via a REST API.</p>
+
+<p>The basic HTML &amp; CSS frontend comprises three distinct interfaces: a login portal, a table viewer, and an admin dashboard showing users and event logs. Users must authenticate through the login to access the directory. All authorised and authenticated users can create and read data via this interface. Superusers can also update and delete data via this interface, manage users via the admin dashboard, and view event logs.</p>
+
+<p>An event logging microservice processes all events and keeps a separate table accessible by privileged users; event logs are immutable.</p>
+
+<h2 id="software-design">Software Design</h2>
+
+<h3 id="frontend">Frontend</h3>
+
+<ul>
+  <li>All authorised users can authenticate against a web interface to access the data interface</li>
+  <li>Privileged users can delete data via the main interface</li>
+  <li>Privileged users have access to two additional pages: admin to manage users and event logs</li>
+  <li>The frontend will be minimal and responsive, using raw HTML and CSS; function over form</li>
+</ul>
+
+<h3 id="backend">Backend</h3>
+
+<ul>
+  <li>A simple REST API will be created to facilitate CRUD operations and user authentication</li>
+  <li>User input will be sanitised server-side to protect against injection-based attacks</li>
+  <li>All actions will be logged and are immutable, even by superusers</li>
+</ul>
+
+<h2 id="system-requirements">System Requirements</h2>
+
+<p>The system is platform-agnostic; it is compatible with any platform that can run Python 3.11.2.</p>
+
+<p>Specific resource requirements would vary depending on the amount of data being processed by the DataService, and how many users are requesting data from the database at a given time.</p>
+
+<p>The following are baseline resource requirements, but heavier usage may require more resources:</p>
+
+<ul>
+  <li>2GHz or faster multi-core processor</li>
+  <li>4GB of system memory</li>
+  <li>50GB of free storage space</li>
+</ul>
+
+<h2 id="quality-assurance-and-testing">Quality Assurance and Testing</h2>
+
+<h3 id="usability">Usability</h3>
+
+<p>IDA from a user perspective is intuitive and minimalistic. The UI will only contain a few interfaces.</p>
+
+<h3 id="maintainability">Maintainability</h3>
+
+<p>The code is well formed and commented where necessary. Functions, variables, classes, models, and other items and objects are clearly named, and their purpose is easily understood.</p>
+
+<h3 id="scalability">Scalability</h3>
+
+<p>The IDA prototype is built using Python 3.11 and SQLite and uses very few libraries. The web server and database can be swapped out for more robust options.</p>
+
+<h3 id="reliability">Reliability</h3>
+
+<p>Testing and error-checking will help with reliability of IDA; as will focusing on simplicity of the microservices and the API for user-run operations.</p>
+
+<h3 id="portability">Portability</h3>
+
+<p>IDA is platform-agnostic and can be set up to run anywhere Python 3.11 will run.</p>
+
+<h2 id="security-concerns-and-mitigation">Security Concerns and Mitigation</h2>
+
+<h3 id="privacy-and-gdpr">Privacy and GDPR</h3>
+
+<p>Personal information used is limited to first name, last name, and username. These data points would have been collected and a privacy policy signed as part of employment by one of the members of the ISS programme.</p>
+
+<p>Under GDPR, these data points would fall under one or more of the following articles: Article 6(1)(a) through Article 6(1)(f) (GDPR.EU, no date).</p>
+
+<h3 id="owasp-top-ten">OWASP Top Ten</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Mitigation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A01:2021 Broken Access Control</td>
+      <td>Guarded by user authorisation via the API, as SQLIte does not support access control.</td>
+    </tr>
+    <tr>
+      <td>A02:2021 Cryptographic Failures</td>
+      <td>Data that is sent by the ISS and consumed by IDA use Fernet symmetric cryptography</td>
+    </tr>
+    <tr>
+      <td>A03:2021 Injection</td>
+      <td>User input is sanitised client side and again server-side by the DataService</td>
+    </tr>
+    <tr>
+      <td>A04:2021 Insecure Design</td>
+      <td>The simplicity of the application and limited attack surface (local access) assist in making IDA secure by design.</td>
+    </tr>
+    <tr>
+      <td>A05:2021 Security Misconfiguration</td>
+      <td>The .env file contains secrets and configuration and is never committed to a public folder. Secure standards are used for configuration.</td>
+    </tr>
+    <tr>
+      <td>A06:2021 Vulnerable and Outdated Components</td>
+      <td>Uses modern and tested frameworks, libraries, and cryptographic standards.</td>
+    </tr>
+    <tr>
+      <td>A07:2021 Identification and Authentication Failures</td>
+      <td>Users and events are managed and tracked; Login could be extended to check for low-effort and common passwords. Passwords are hashed using hashlib.</td>
+    </tr>
+    <tr>
+      <td>A08:2021 Software and Data Integrity Failures</td>
+      <td>Python memory zeroing is unreliable, which is a potential issue but would require server access to exploit.</td>
+    </tr>
+    <tr>
+      <td>A09:2021 Security Logging and Monitoring Failures</td>
+      <td>Immutable event logs are taken for every action.</td>
+    </tr>
+    <tr>
+      <td>A10:2021 Server-Side Request Forgery</td>
+      <td>CRUD and file operations require proper authorisation and authentication.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tools-and-libraries">Tools and Libraries</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Language</td>
+      <td>Python 3.11.2</td>
+    </tr>
+    <tr>
+      <td>Framework</td>
+      <td>Bottle 0.12.15</td>
+    </tr>
+    <tr>
+      <td>IDEs</td>
+      <td>Visual Studio Code</td>
+    </tr>
+    <tr>
+      <td>Libraries</td>
+      <td>hashlib, cryptography 39.0.2</td>
+    </tr>
+    <tr>
+      <td>Database</td>
+      <td>SQLite 3</td>
+    </tr>
+    <tr>
+      <td>Platforms</td>
+      <td>Platform-agnostic, runs wherever Python 3.11 runs</td>
+    </tr>
+    <tr>
+      <td>Other Technologies</td>
+      <td>pip 22.3.1 (python package installer), virtualenv 20.19.0 (virtual Python environment), pipenv 2023.2.18 (virtual Python environment management)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="software-diagrams">Software Diagrams</h2>
+
+<p><img src="diagrams/IDAUseCaseDiagram.png" alt="IDA Use Case Diagram" /></p>
+
+<p><img src="diagrams/IDAActivityDiagramAdmin.png" alt="IDA Activity Diagram - Admin" /></p>
+
+<p><img src="diagrams/IDAUseCaseDiagramUser.png" alt="IDA Use Case Diagram - User" /></p>
+
+<p><img src="diagrams/IDAClassDiagram.png" alt="IDA Class Diagram" /></p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>NASA (2023) International Space Station Facts and Figures. Available at: <a href="https://www.nasa.gov/feature/facts-and-figures">https://www.nasa.gov/feature/facts-and-figures</a> [Accessed 16 February 2023]</li>
+  <li>Jacobson, A. &amp; Hume, A. (2017) NASA Communications Network to Double Space Station Data Rates. Available at: <a href="https://www.nasa.gov/feature/goddard/2016/nasa-communications-network-to-double-space-station-data-rates">https://www.nasa.gov/feature/goddard/2016/nasa-communications-network-to-double-space-station-data-rates</a> [Accessed 16 February 2023]</li>
+  <li>GDPR.EU (no date) General Data Protection Regulation (GDPR). Available at: <a href="https://gdpr.eu/article-6-how-to-process-personal-data-legally/">https://gdpr.eu/article-6-how-to-process-personal-data-legally/</a> [Accessed 23 February 2023]</li>
+</ul>
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>
