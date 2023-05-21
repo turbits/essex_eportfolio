@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module2/assignment3/unit10/importing-modules.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module2/assignment3/unit10/importing-modules.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module2/assignment3/unit10/importing-modules.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <h2 id="module-2-assignment-3-unit-10-importing-modules">Module 2: Assignment 3: Unit 10: Importing Modules</h2>
+
+<h3 id="code">Code</h3>
+
+<p>(employee.py)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Employee</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">title</span><span class="p">,</span> <span class="n">salary</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">salary</span> <span class="o">=</span> <span class="n">salary</span>
+
+  <span class="k">def</span> <span class="nf">display</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Employee: {}</span><span class="se">\n</span><span class="s">Title: {}</span><span class="se">\n</span><span class="s">Salary: {}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">name</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">title</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">salary</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">greeting</span><span class="p">():</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">'Hello from the employee module'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>(program.py)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># import employee
+</span><span class="kn">from</span> <span class="nn">employee</span> <span class="kn">import</span> <span class="n">Employee</span><span class="p">,</span> <span class="n">greeting</span>
+
+<span class="c1"># emp = employee.Employee('Trevor Woodman', 'Student', 10)
+</span><span class="n">emp</span> <span class="o">=</span> <span class="n">Employee</span><span class="p">(</span><span class="s">'Trevor Woodman'</span><span class="p">,</span> <span class="s">'Student'</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">emp</span><span class="p">.</span><span class="n">display</span><span class="p">()</span>
+
+<span class="n">greeting</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="output">Output</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Employee: Trevor Woodman
+Title: Student
+Salary: 10
+Hello from the employee module
+</code></pre></div></div>
+
+<h3 id="reading-question">Reading Question</h3>
+
+<p>“Select all of the ways you should import a module. Hint, there is more than one correct answer.”</p>
+
+<p>Answer (Correct): import my_module
+Answer (Correct): from my_module import MyClass</p>
+
+<p>Feedback:
+The correct answers are import my_module and from my_module import MyClass.</p>
+
+<p>While from my_module import * is technically valid Python code, programmers are encourage to avoid the wildcard when importing from modules.</p>
+
+<p>When importing, you always start with the the module name. Either import the entire module, import my_module or indicate the module then import the item, from my_module import MyClass. Do not start with the item name.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

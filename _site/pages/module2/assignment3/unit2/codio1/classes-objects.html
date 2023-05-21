@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module2/assignment3/unit2/codio1/classes-objects.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module2/assignment3/unit2/codio1/classes-objects.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module2/assignment3/unit2/codio1/classes-objects.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module2/assignment3/unit2/codio1/codio1.html">Back</a></p>
+
+<h2 id="module-2-assignment-3-unit-2-codio-activity-1-classes-and-objects">Module 2: Assignment 3: Unit 2: Codio Activity 1: Classes and Objects</h2>
+
+<h3 id="code">Code</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">copy</span>
+
+
+<span class="c1"># +============= CLASSES AND OBJECTS =============+
+</span><span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+  <span class="s">"""Represents a point in 2-D space.
+  attributes: x, y.
+  """</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">y</span> <span class="o">=</span> <span class="mi">0</span>
+
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+<span class="c1"># As an exercise, write a function called distance_between_points that takes two Points as arguments and returns the distance between them.
+</span>
+<span class="n">_p1</span> <span class="o">=</span> <span class="p">[</span><span class="mf">5.0</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">]</span>
+<span class="n">_p2</span> <span class="o">=</span> <span class="p">[</span><span class="mf">9.0</span><span class="p">,</span> <span class="mf">15.0</span><span class="p">]</span>
+<span class="k">def</span> <span class="nf">distance_between_points</span><span class="p">(</span><span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">math</span><span class="p">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">p2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">p1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="p">(</span><span class="n">p2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">p1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"---- distance_between_points() ----"</span>
+<span class="k">print</span> <span class="s">"takes two Points as arguments and returns the distance between them"</span>
+<span class="k">print</span> <span class="s">"distance_between_points([5.0, 6.0], [9.0, 15.0]) = "</span><span class="p">,</span> <span class="n">distance_between_points</span><span class="p">(</span><span class="n">_p1</span><span class="p">,</span> <span class="n">_p2</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span>
+
+<span class="c1"># As an exercise, write a function named move_rectangle that takes a Rectangle and two numbers named dx and dy. It should change the location of the rectangle by adding dx to the x coordinate of corner and adding dy to the y coordinate of corner.
+</span><span class="k">class</span> <span class="nc">Rectangle</span><span class="p">:</span>
+  <span class="s">"""Represents a rectangle.
+  attributes: width, height, corner.
+  """</span>
+  <span class="n">width</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">height</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">corner</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">corner</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">width</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">height</span> <span class="o">=</span> <span class="n">height</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">corner</span> <span class="o">=</span> <span class="n">corner</span>
+<span class="n">_rectangle</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">move_rectangle</span><span class="p">(</span><span class="n">rectangle</span><span class="p">,</span> <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span><span class="p">):</span>
+  <span class="n">rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">dx</span>
+  <span class="n">rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">dy</span>
+  <span class="k">return</span> <span class="n">rectangle</span>
+<span class="n">_r1</span> <span class="o">=</span> <span class="n">move_rectangle</span><span class="p">(</span><span class="n">_rectangle</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"---- move_rectangle() ----"</span>
+<span class="k">print</span> <span class="s">"changes the location of the rectangle by adding dx to the x coordinate of corner and adding dy to the y coordinate of corner"</span>
+<span class="k">print</span> <span class="s">"move_rectangle(Rectangle(100, 200, Point(50, 50)), 10, 10) = width:{}, height:{}, corner.x:{}, corner.y:{}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">_r1</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="n">_r1</span><span class="p">.</span><span class="n">height</span><span class="p">,</span> <span class="n">_r1</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">_r1</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span>
+
+<span class="c1"># As an exercise, write a version of move_rectangle that creates and returns a new Rectangle instead of modifying the old one.
+</span><span class="n">_rectangle</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">move_rectangle_copy</span><span class="p">(</span><span class="n">rect</span><span class="p">,</span> <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span><span class="p">):</span>
+  <span class="n">_new_rectangle</span> <span class="o">=</span> <span class="n">copy</span><span class="p">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">rect</span><span class="p">)</span>
+  <span class="n">_new_rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">dx</span>
+  <span class="n">_new_rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">dy</span>
+  <span class="k">return</span> <span class="n">_new_rectangle</span>
+<span class="n">_r2</span> <span class="o">=</span> <span class="n">move_rectangle_copy</span><span class="p">(</span><span class="n">_rectangle</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"---- move_rectangle_copy() ----"</span>
+<span class="k">print</span> <span class="s">"returns a new Rectangle instead of modifying the old one"</span>
+<span class="k">print</span> <span class="s">"original rectangle = width:{}, height:{}, corner.x:{}, corner.y:{}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">_rectangle</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="n">_rectangle</span><span class="p">.</span><span class="n">height</span><span class="p">,</span> <span class="n">_rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">_rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"move_rectangle_copy(Rectangle(100, 200, Point(50, 50)), 10, 10) = width:{}, height:{}, corner.x:{}, corner.y:{}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">_r2</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="n">_r2</span><span class="p">.</span><span class="n">height</span><span class="p">,</span> <span class="n">_r2</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">_r2</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"original rectangle (again) = width:{}, height:{}, corner.x:{}, corner.y:{}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">_rectangle</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="n">_rectangle</span><span class="p">.</span><span class="n">height</span><span class="p">,</span> <span class="n">_rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">_rectangle</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span>
+
+<span class="c1"># +============= EXERCISES: CLASSES AND OBJECTS =============+
+</span><span class="k">class</span> <span class="nc">Circle</span><span class="p">:</span>
+  <span class="s">"""Represents a circle.
+  attributes: center, radius.
+  """</span>
+  <span class="n">center</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">radius</span> <span class="o">=</span> <span class="mi">0</span>
+
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">center</span><span class="p">,</span> <span class="n">radius</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">center</span> <span class="o">=</span> <span class="n">center</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">radius</span> <span class="o">=</span> <span class="n">radius</span>
+<span class="n">_circle</span> <span class="o">=</span> <span class="n">Circle</span><span class="p">(</span><span class="n">Point</span><span class="p">(</span><span class="mi">150</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span> <span class="mi">75</span><span class="p">)</span>
+
+<span class="c1"># Write a function named point_in_circle that takes a Circle and a Point and returns True if the Point lies in or on the boundary of the circle.
+</span><span class="k">def</span> <span class="nf">point_in_circle</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">point</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">distance_between_points</span><span class="p">([</span><span class="n">circle</span><span class="p">.</span><span class="n">center</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">circle</span><span class="p">.</span><span class="n">center</span><span class="p">.</span><span class="n">y</span><span class="p">],</span> <span class="p">[</span><span class="n">point</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">point</span><span class="p">.</span><span class="n">y</span><span class="p">])</span> <span class="o">&lt;=</span> <span class="n">circle</span><span class="p">.</span><span class="n">radius</span>
+<span class="k">print</span> <span class="s">"---- point_in_circle() ----"</span>
+<span class="k">print</span> <span class="s">"returns True if the Point lies in or on the boundary of the circle"</span>
+<span class="k">print</span> <span class="s">"point_in_circle(Circle(Point(150, 100), 75), Point(100, 75)) = "</span><span class="p">,</span> <span class="n">point_in_circle</span><span class="p">(</span><span class="n">_circle</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">75</span><span class="p">))</span>
+<span class="k">print</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span>
+
+<span class="c1"># Write a function named rect_in_circle that takes a Circle and a Rectangle and returns True if the Rectangle lies entirely in or on the boundary of the circle.
+</span><span class="k">def</span> <span class="nf">rect_in_circle</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">rect</span><span class="p">):</span>
+  <span class="n">_rect</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">height</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">))</span>
+  <span class="n">_rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">rect</span><span class="p">.</span><span class="n">width</span>
+  <span class="n">_rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">rect</span><span class="p">.</span><span class="n">height</span>
+  <span class="k">return</span> <span class="n">point_in_circle</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">)</span> <span class="ow">and</span> <span class="n">point_in_circle</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">_rect</span><span class="p">.</span><span class="n">corner</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"---- rect_in_circle() ----"</span>
+<span class="k">print</span> <span class="s">"returns True if the Rectangle lies entirely in or on the boundary of the circle"</span>
+<span class="k">print</span> <span class="s">"rect_in_circle(Circle(Point(150, 100), 75), Rectangle(50, 100, Point(100, 50))) = "</span><span class="p">,</span> <span class="n">rect_in_circle</span><span class="p">(</span><span class="n">_circle</span><span class="p">,</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">50</span><span class="p">)))</span>
+<span class="k">print</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span>
+
+<span class="c1"># Write a function named rect_circle_overlap that takes a Circle and a Rectangle and returns True if any of the corners of the Rectangle fall inside the circle. Or as a more challenging version, return True if any part of the Rectangle falls inside the circle.
+</span><span class="k">def</span> <span class="nf">rect_circle_overlap</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">rect</span><span class="p">):</span>
+  <span class="n">_rect</span> <span class="o">=</span> <span class="n">Rectangle</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">height</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">))</span>
+  <span class="n">_rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span> <span class="o">+=</span> <span class="n">rect</span><span class="p">.</span><span class="n">width</span>
+  <span class="n">_rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span> <span class="o">+=</span> <span class="n">rect</span><span class="p">.</span><span class="n">height</span>
+  <span class="k">return</span> <span class="n">point_in_circle</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">)</span> <span class="ow">or</span> <span class="n">point_in_circle</span><span class="p">(</span><span class="n">circle</span><span class="p">,</span> <span class="n">_rect</span><span class="p">.</span><span class="n">corner</span><span class="p">)</span>
+<span class="k">print</span> <span class="s">"---- rect_circle_overlap() ----"</span>
+<span class="k">print</span> <span class="s">"returns True if any of the corners of the Rectangle fall inside the circle"</span>
+<span class="k">print</span> <span class="s">"rect_circle_overlap(Circle(Point(150, 100), 75), Rectangle(50, 100, Point(100, 50))) = "</span><span class="p">,</span> <span class="n">rect_circle_overlap</span><span class="p">(</span><span class="n">_circle</span><span class="p">,</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">50</span><span class="p">)))</span>
+<span class="k">print</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span>
+
+<span class="c1"># Write a function draw_rect that takes a Turtle object and a Rectangle and uses the Turtle to draw the Rectangle. See Chapter 4 for examples using Turtle objects.
+</span><span class="kn">import</span> <span class="nn">turtle</span>
+<span class="k">def</span> <span class="nf">draw_rect</span><span class="p">(</span><span class="n">turtle</span><span class="p">,</span> <span class="n">rect</span><span class="p">):</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">up</span><span class="p">()</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">goto</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">rect</span><span class="p">.</span><span class="n">corner</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">down</span><span class="p">()</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+    <span class="n">turtle</span><span class="p">.</span><span class="n">forward</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">width</span><span class="p">)</span>
+    <span class="n">turtle</span><span class="p">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+    <span class="n">turtle</span><span class="p">.</span><span class="n">forward</span><span class="p">(</span><span class="n">rect</span><span class="p">.</span><span class="n">height</span><span class="p">)</span>
+    <span class="n">turtle</span><span class="p">.</span><span class="n">left</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
+<span class="n">draw_rect</span><span class="p">(</span><span class="n">turtle</span><span class="p">,</span> <span class="n">Rectangle</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">50</span><span class="p">)))</span>
+
+<span class="c1"># Write a function draw_circle that takes a Turtle and a Circle and draws the Circle.
+</span><span class="k">def</span> <span class="nf">draw_circle</span><span class="p">(</span><span class="n">turtle</span><span class="p">,</span> <span class="n">circle</span><span class="p">):</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">up</span><span class="p">()</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">goto</span><span class="p">(</span><span class="n">circle</span><span class="p">.</span><span class="n">center</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">circle</span><span class="p">.</span><span class="n">center</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">down</span><span class="p">()</span>
+  <span class="n">turtle</span><span class="p">.</span><span class="n">circle</span><span class="p">(</span><span class="n">circle</span><span class="p">.</span><span class="n">radius</span><span class="p">)</span>
+<span class="n">draw_circle</span><span class="p">(</span><span class="n">turtle</span><span class="p">,</span> <span class="n">Circle</span><span class="p">(</span><span class="n">Point</span><span class="p">(</span><span class="mi">150</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span> <span class="mi">75</span><span class="p">))</span>
+</code></pre></div></div>
+
+<h3 id="output">Output</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---- distance_between_points() ----
+takes two Points as arguments and returns the distance between them
+distance_between_points([5.0, 6.0], [9.0, 15.0]) =  9.8488578018
+
+
+---- move_rectangle() ----
+changes the location of the rectangle by adding dx to the x coordinate of corner and adding dy to the y coordinate of corner
+move_rectangle(Rectangle(100, 200, Point(50, 50)), 10, 10) = width:100, height:200, corner.x:60, corner.y:60
+
+
+---- move_rectangle_copy() ----
+returns a new Rectangle instead of modifying the old one
+original rectangle = width:100, height:200, corner.x:50, corner.y:50
+move_rectangle_copy(Rectangle(100, 200, Point(50, 50)), 10, 10) = width:100, height:200, corner.x:60, corner.y:60
+original rectangle (again) = width:100, height:200, corner.x:50, corner.y:50
+
+
+---- point_in_circle() ----
+returns True if the Point lies in or on the boundary of the circle
+point_in_circle(Circle(Point(150, 100), 75), Point(100, 75)) =  True
+
+
+---- rect_in_circle() ----
+returns True if the Rectangle lies entirely in or on the boundary of the circle
+rect_in_circle(Circle(Point(150, 100), 75), Rectangle(50, 100, Point(100, 50))) =  True
+
+
+---- rect_circle_overlap() ----
+returns True if any of the corners of the Rectangle fall inside the circle
+rect_circle_overlap(Circle(Point(150, 100), 75), Rectangle(50, 100, Point(100, 50))) =  True
+</code></pre></div></div>
+
+<p>The program also opens a window and draws the rectangle and circle using the turtle module.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

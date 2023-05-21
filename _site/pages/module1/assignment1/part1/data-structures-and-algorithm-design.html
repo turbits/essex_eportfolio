@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module1/assignment1/part1/data-structures-and-algorithm-design.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module1/assignment1/part1/data-structures-and-algorithm-design.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module1/assignment1/part1/data-structures-and-algorithm-design.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module1/assignment1/part1/m1a1p1.html">Back</a></p>
+
+<h2 id="module-1-assignment-1-part-1-data-structures-and-algorithm-design">Module 1: Assignment 1: Part 1: Data Structures and Algorithm Design</h2>
+
+<p>This assignment was an 800 word essay regarding the design of data structures and algorithms used in a program. This is the markdown version.</p>
+
+<h2 id="data-structures-and-algorithm-design">Data Structures and Algorithm Design</h2>
+
+<h3 id="section-1-outline">Section 1: Outline</h3>
+
+<p>A bankbook offers us a physical list of transactions recorded on a deposit account at a bank, for example, a chequing or savings account. A bankbook entry generally provides the date and time of the transaction, a short description, credits, debits, and the closing balance after the transaction. For a digital bankbook, a unique identifier assigned to each transaction would also be ideal. For our purposes, we will generate a unique identifier using the current date and time represented as a Unix timestamp and append an arbitrary number of randomly generated hexadecimal characters so many transactions created at the same time won’t have the same unique identifier. A Unix timestamp represents the number of seconds that have passed since the Unix epoch: January 1, 1970, 00:00:00 UTC. These transaction properties combine to form what is known as a schema, which is a set of properties that the transaction can (or must) include, depending on how we determine what is required for a transaction. For our schema, we will require all properties but we could also create other properties, like a property to store the last time a transaction was updated which would not be required.</p>
+
+<h3 id="section-2-algorithm-design">Section 2: Algorithm Design</h3>
+
+<p>To interact with the bankbook, a set of algorithms to read and modify the transactions inside will have to be defined. We will need to create new transactions, read existing transactions, and update or delete transactions in the case of an error. In addition to these four primary operations, we will also create a sort operation that will allow us to display our sorted data by property. The four primary operations are commonly referred to as “CRUD” for create, read, update, and delete. For this application, we can assume that we are using a language that has arrays or lists with common methods like insert, find by X, and remove that will eloquently manage the behind-the-scenes logic for things like recreation or reindexing of arrays or lists on inserts or removals. We can also assume that a schema can be easily enforced on elements in an array. If we were writing a real program instead of just pseudocode, this would generally be done either by the database you are using or by writing additional logic. In the following pages, we will define and describe via flowcharts our four primary algorithms along with a sort algorithm with which to operate our bankbook.</p>
+
+<p>To add transactions to our bankbook, let us define a “create” operation. This will include all required information according to our schema, and generate a unique identifier, or UID, as part of the process. In real-world databases, the UID can be called a primary key, unique identifier, object identifier, or similar.</p>
+
+<p><img src="/pages/module1/assignment1/part1/operations/create-operation.png" alt="" /></p>
+
+<p>Now that we can create transactions and have them added to our database, we need to be able to read them. For our read operation, we will define an algorithm that can find a transaction object based on its UID. As mentioned previously, we can assume the language we are using has a “find by X” method defined for its arrays.</p>
+
+<p><img src="/pages/module1/assignment1/part1/operations/read-operation.png" alt="" /></p>
+
+<p>We now have two of four primary functions. If an error is made on a transaction and we would like to fix the error, we will need to define an update operation to overwrite existing transactions with a new transaction object. Ideally, this would include well-defined checks to ensure that the UID was not overwritten, but for the sake of brevity, it has been merged with the overwrite process.</p>
+
+<p><img src="pages/module1/assignment1/part1/operations/update-operation.png" alt="" /></p>
+
+<p>The final primary function for our bankbook application is a delete operation. If an errant transaction is added to our bankbook, we should have the ability to remove it entirely. Without going into philosophical, moral, and legal quandaries surrounding data retention and use, we will assume we can simply delete our data without external repercussions.</p>
+
+<p><img src="pages/module1/assignment1/part1/operations/delete-operation.png" alt="" /></p>
+
+<p>Our quality-of-life sort operation is a bit more complex than our primary operations. This particular sorting algorithm uses the simplest sorting method, the bubble sort. The bubble sorting method works by iterating over and swapping adjacent elements in an array until all of the elements are sorted, then returns the sorted array:</p>
+
+<p><img src="pages/module1/assignment1/part1/operations/sort-operation.png" alt="" /></p>
+
+<h3 id="section-3-testing">Section 3: Testing</h3>
+
+<p>Now that we have our primary operation algorithms written, we can interact with our bankbook application. See figures 6 and 7 below for the test plan grid, including our expected results from our tests. Each test shows the operation used, the test data and the operation call, and the expected result.</p>
+
+<p><img src="pages/module1/assignment1/part1/testing-table1.png" alt="" /></p>
+
+<p><img src="pages/module1/assignment1/part1/testing-table2.png" alt="" /></p>
+
+<h3 id="section-4-conclusion">Section 4: Conclusion</h3>
+
+<p>In conclusion, we have identified and defined the four primary CRUD operations we would need to operate a digital bankbook. In addition, we defined a sort algorithm to help us efficiently display the information we need. If we wanted to expand our feature set, we could write additional sorting algorithms or a find operation that returned multiple transactions at once. What we are left with is a simple but robust digital bankbook to record and manage our banking transactions.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

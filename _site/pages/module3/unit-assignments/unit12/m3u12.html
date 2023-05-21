@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit12/m3u12.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit12/m3u12.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit12/m3u12.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3.html">Back</a></p>
+
+<h2 id="unit-12-the-great-tanenbaum-torvalds-debate-revisited">Unit 12: The Great Tanenbaum-Torvalds Debate Revisited</h2>
+
+<h3 id="-table-of-contents">🥳 Table of Contents</h3>
+
+<ul>
+  <li>👉<a href="/pages/module3/unit-assignments/unit12/seminar-prep.html">Seminar Preperation ePortfolio Entry</a></li>
+  <li>👉<a href="/pages/module3/unit-assignments/unit12/reflective-piece-tw.html">Module Reflective Piece</a></li>
+  <li>👉<a href="/pages/module3/unit-assignments/unit12/reflective-piece-tw.docx">Module Reflective Piece (docx, download)</a></li>
+</ul>
+
+<h3 id="-requirements">📝 Requirements</h3>
+
+<p>Welcome to Week 12 where we will revisit (and recreate in our own small way) the Tanenbaum-Torvalds debate of the early nineties.</p>
+
+<p>At the time of the original debate, Andrew Tanenbaum was a university lecturer who had created Minix – a small, microkernel-based operating system that he used as a teaching tool. Linus Torvalds was a master’s student who had completed a module in operating systems design. Anecdotally, Torvalds claimed he was just trying to create his own OS kernel that he could use with GNU and would make best use of his new (at the time) 386 based PC. He used Minix as the theoretical basis of his new system.</p>
+
+<p>The world of computing was very different in 1992. Processor speeds were in the MHz, not GHz range. There was no multi-core x86 CPU available – and certainly not in desktop systems. Therefore, the decisions about how OSes should be designed – the trade-offs between single address space systems versus user-kernel memory splits, and the concerns about context switch times were much more acute in those days.</p>
+
+<p>Today we live in a web scale world: workloads run in virtual clouds with supposedly unlimited capacity for expansion – both for RAM and CPU. Malevolent intention is everywhere – barely a day goes by without another announcement of a critical exploit or vulnerability in one system or another – and sometimes in the underlying hardware as well!</p>
+
+<p>All these things should be borne in mind when considering the validity of both Tanenbaum’s and Torvalds’ arguments nearly thirty years on: is a monolithic kernel still the best approach in a mostly distributed world? Does the use of microservices equate to a need for microkernels? And how does the shadow of incessant cyber-attacks impact these decisions? Hopefully this debate will help us all to re-evaluate our opinions on the best approach to take.</p>
+
+<h4 id="in-this-unit-we-shall">In this unit we shall:</h4>
+<ul>
+  <li>Review journals and articles about monoliths, microkernels and microservices.</li>
+  <li>Engage in a debate about the above.</li>
+  <li>Explore some of the advances in secure programming.</li>
+</ul>
+
+<h4 id="on-completion-of-this-unit-you-will-be-able-to">On completion of this unit you will be able to:</h4>
+<ul>
+  <li>Recommend a strategy around which methodology to adopt: monolithic or microservices.</li>
+  <li>Provide evidence to support your recommendation.</li>
+  <li>Explain how faceted data approaches work.</li>
+</ul>
+
+<p>This session summarises the module and asks you to think about current trends in system design and development and the two opposing approaches: monolithic or microservice/ modular designs.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

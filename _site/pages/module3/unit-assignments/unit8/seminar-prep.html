@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit8/seminar-prep.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit8/seminar-prep.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit8/seminar-prep.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/unit-assignments/unit8/m3u8.html">Back</a></p>
+
+<h2 id="unit-8-seminar-prep">Unit 8: Seminar Prep</h2>
+
+<p>Unit assignment code, questions, and answers to follow.</p>
+
+<h3 id="-requirements">📝 Requirements</h3>
+
+<p>Read the Cryptography with Python blog at tutorialspoint.com (link is in the reading list). Select one of the methods described/ examples given and create a python program that can take a short piece of text and encrypt it.</p>
+
+<p>Create a python program in Codio (you can use the Jupyter Notebooks space provided in the Codio resources section) that can take a text file and output an encrypted version as a file in your folder on the Codio system. Demonstrate your program operation in this week’s seminar session.</p>
+
+<p><strong>Answer the following questions in your e-portfolio:</strong></p>
+<ul>
+  <li>Why did you select the algorithm you chose?</li>
+  <li>Would it meet the GDPR regulations? Justify your answer.</li>
+  <li>We will review your work from Unit 7 (Python Shell) in this week’s seminar, as well as this cryptography activity. There will also be an opportunity to review your team’s assignment progress during the seminar.</li>
+</ul>
+
+<p>Remember to record your results, ideas and team discussions in your e-portfolio and complete the Codio activities in Unit 7.</p>
+
+<p><strong>Learning Outcomes</strong></p>
+<ul>
+  <li>Identify and manage security risks as part of a software development project.</li>
+  <li>Critically analyse development problems and determine appropriate methodologies, tools and techniques (including program design and development) to solve them.</li>
+  <li>Design and develop/adapt computer programs and to produce a solution that meets the design brief and critically evaluate solutions that are produced.</li>
+</ul>
+
+<h3 id="-answercode">🤔 Answer/Code</h3>
+
+<blockquote>
+  <p>Create a python program in Codio (you can use the Jupyter Notebooks space provided in the Codio resources section) that can take a text file and output an encrypted version as a file in your folder on the Codio system. Demonstrate your program operation in this week’s seminar session.</p>
+</blockquote>
+
+<p>I chose not to use Codio as I can’t attend seminars (time difference, they happen during my work day). I used a local Python 3.11 install on my Windows 11 machine. Since I implemented Fernet symmetric encryption and showed knowledge related to more complex encryption methods in <a href="/pages/module3/assignment2/m3a2.md">assignment 2</a>, I’m going to use a simple ROT13 encryption algorithm for this assignment.</p>
+
+<p><strong>The code</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+
+
+<span class="k">def</span> <span class="nf">rot13encrypt</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
+    <span class="s">"""
+    Encrypts a string using ROT13 encryption.
+    """</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="s">""</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">char</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">char</span><span class="p">.</span><span class="n">isupper</span><span class="p">():</span>
+                <span class="n">output</span> <span class="o">+=</span> <span class="nb">chr</span><span class="p">((</span><span class="nb">ord</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'A'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">26</span> <span class="o">+</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'A'</span><span class="p">))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">output</span> <span class="o">+=</span> <span class="nb">chr</span><span class="p">((</span><span class="nb">ord</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span> <span class="o">+</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">26</span> <span class="o">+</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">output</span> <span class="o">+=</span> <span class="n">char</span>
+    <span class="k">return</span> <span class="n">output</span>
+
+
+<span class="k">def</span> <span class="nf">rot13decrypt</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
+    <span class="s">"""
+    Decrypts a string using ROT13 encryption.
+    """</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="s">""</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">char</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">char</span><span class="p">.</span><span class="n">isupper</span><span class="p">():</span>
+                <span class="n">output</span> <span class="o">+=</span> <span class="nb">chr</span><span class="p">((</span><span class="nb">ord</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'A'</span><span class="p">)</span> <span class="o">-</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">26</span> <span class="o">+</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'A'</span><span class="p">))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">output</span> <span class="o">+=</span> <span class="nb">chr</span><span class="p">((</span><span class="nb">ord</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span> <span class="o">-</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">26</span> <span class="o">+</span> <span class="nb">ord</span><span class="p">(</span><span class="s">'a'</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">output</span> <span class="o">+=</span> <span class="n">char</span>
+    <span class="k">return</span> <span class="n">output</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">ROT13 Encryption/Decryption"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"==========================="</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Please choose a mode:"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"1. Encrypt"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"2. Decrypt"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"3. Exit"</span><span class="p">)</span>
+
+        <span class="n">mode</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Mode: "</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">mode</span> <span class="o">==</span> <span class="s">"1"</span><span class="p">:</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Input: "</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Output: "</span> <span class="o">+</span> <span class="n">rot13encrypt</span><span class="p">(</span><span class="nb">input</span><span class="p">))</span>
+        <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s">"2"</span><span class="p">:</span>
+            <span class="nb">input</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Input: "</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Output: "</span> <span class="o">+</span> <span class="n">rot13decrypt</span><span class="p">(</span><span class="nb">input</span><span class="p">))</span>
+        <span class="k">elif</span> <span class="n">mode</span> <span class="o">==</span> <span class="s">"3"</span><span class="p">:</span>
+            <span class="n">sys</span><span class="p">.</span><span class="nb">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Invalid mode"</span><span class="p">)</span>
+
+<span class="n">main</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><strong>The output</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ py rot13.py
+
+ROT13 Encryption/Decryption
+===========================
+Please choose a mode:
+1. Encrypt
+2. Decrypt
+3. Exit
+Mode: 1
+Input: Trevor
+
+Output: Geribe
+
+ROT13 Encryption/Decryption
+===========================
+Please choose a mode:
+1. Encrypt
+2. Decrypt
+3. Exit
+Mode: 2
+Input: Geribe
+
+Output: Trevor
+</code></pre></div></div>
+
+<blockquote>
+  <p>Why did you select the algorithm you chose?</p>
+</blockquote>
+
+<p>I chose ROT13 because of it’s simplicity and because of its use as the canonical weak encryption algorithm. It is still interesting however, and it is a good example of a simple substitution cipher.</p>
+
+<blockquote>
+  <p>Would it meet the GDPR regulations? Justify your answer.</p>
+</blockquote>
+
+<p>Certainly not. ROT13 is often used as <strong>the</strong> example of a weak encryption algorithm, and is moreso used for puzzles and games. It is not suitable for any real-world use, but it is fun to use. 😊</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

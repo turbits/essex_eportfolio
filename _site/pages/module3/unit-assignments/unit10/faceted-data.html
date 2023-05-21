@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit10/faceted-data.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit10/faceted-data.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit10/faceted-data.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/unit-assignments/unit10/m3u10.html">Back</a></p>
+
+<h2 id="unit-10-from-distributed-computing-to-microarchitectures-faceted-data">Unit 10: From Distributed Computing to Microarchitectures: Faceted Data</h2>
+
+<p>My answers to follow. Unfortunately, the “article” is not in the Unit 10 reading list but I did manage to find it in the module resources reading list link; apparently the “article” is from Unit 12. The article title is “Faceted Dynamic Information Flow via Control and Data Monads” by Schmitz et al (2016), and is available <a href="http://kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf">here</a>.</p>
+
+<h3 id="-requirements">📝 Requirements</h3>
+
+<p>Read Schmitz et al (2016) article about faceted data.</p>
+<ul>
+  <li>Do you think this is a good approach to protect systems from data leakage? What are the pros and cons?</li>
+  <li>Create a basic outline design of how you would create such a system in Python.</li>
+</ul>
+
+<p>Add your answers to your e-portfolio.</p>
+
+<h3 id="-reflectionanswers">🤔 Reflection/Answers</h3>
+
+<blockquote>
+  <p>Do you think this is a good approach to protect systems from data leakage? What are the pros and cons?</p>
+</blockquote>
+
+<p>The article outlines an approach of separating the policy enforcement from the code execution and tracks data flow between program and policy variables.</p>
+
+<p>Pros:</p>
+<ul>
+  <li>The separation of concerns between policy and code execution appears to be a logical and effective approach</li>
+  <li>It allows policy makers to focus solely on policy without worrying about code execution, and vice versa for programmers</li>
+  <li>It has the potential to allow for more dynamic and robust policy enforcement</li>
+</ul>
+
+<p>Cons:</p>
+<ul>
+  <li>The approach adds significant complexity to the system, which may be difficult to efficiently manage</li>
+  <li>This separation, although a good idea in theory, may be difficult to implement in practice</li>
+  <li>Developers would be required to be familiar with policy language which may require training</li>
+  <li>Given its complexity, it could add significant performance overhead</li>
+</ul>
+
+<blockquote>
+  <p>Create a basic outline design of how you would create such a system in Python.</p>
+</blockquote>
+
+<p>I would define an outline for a system as such:</p>
+
+<ol>
+  <li>
+    <p>Define the policy language; this should be a language that is easy to understand and implement, and something that both the policy makers and developers could easily understand. This could be as simple as using a language like YAML or XML, or something more complex like creating a domain-specific language (DSL) that is specific to the system.</p>
+  </li>
+  <li>
+    <p>Create policy enforcement; A system to enforce policy during runtime. I would most likely use a set of decorators for this as they are quite familiar to a developer and are easily understood as to their purpose. The decorators would wrap functions and methods, and enforce policy on the data that is being passed to them.</p>
+  </li>
+  <li>
+    <p>Data monad; A system that tracks the data flow throughout the program.</p>
+  </li>
+  <li>
+    <p>Control monad; A system that tracks the control flow of the program.</p>
+  </li>
+  <li>
+    <p>Testing; The system would require extensive, robust, and ideally automated testing to ensure that the policies are being correctly enforced in the system.</p>
+  </li>
+</ol>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

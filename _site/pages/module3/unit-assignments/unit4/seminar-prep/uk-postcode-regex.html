@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trevor’s University of Essex ePortfolio</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/pages/module3/unit-assignments/unit4/seminar-prep/uk-postcode-regex.html" />
+<meta property="og:url" content="http://localhost:4000/pages/module3/unit-assignments/unit4/seminar-prep/uk-postcode-regex.html" />
+<meta property="og:site_name" content="Trevor’s University of Essex ePortfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trevor’s University of Essex ePortfolio" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Trevor’s University of Essex ePortfolio","url":"http://localhost:4000/pages/module3/unit-assignments/unit4/seminar-prep/uk-postcode-regex.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Trevor&apos;s University of Essex ePortfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Trevor&#39;s University of Essex ePortfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/pages/module0.html">Module 0</a><a class="page-link" href="/pages/module1.html">Module 1</a><a class="page-link" href="/pages/module2.html">Module 2</a><a class="page-link" href="/pages/module3.html">Module 3</a><a class="page-link" href="/pages/module4.html">Module 4</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <p>⬅️<a href="/pages/module3/unit-assignments/unit4/seminar-prep/seminar-preparation.html">Back</a></p>
+
+<h2 id="unit-4-seminar-preparation-uk-postcode-regex">Unit 4: Seminar Preparation: UK Postcode Regex</h2>
+
+<p>See below the code block for an output example.</p>
+
+<h3 id="-code">🧑‍💻 Code</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">re</span>
+
+
+<span class="k">def</span> <span class="nf">validate_uk_postcode</span><span class="p">(</span><span class="n">postcode</span><span class="p">):</span>
+    <span class="c1"># regex pattern for UK postcode validation
+</span>    <span class="n">pattern</span> <span class="o">=</span> <span class="s">"^[A-Z]{1,2}[0-9R][0-9A-Z]? [0-9][A-Z]{2}$"</span>
+    
+    <span class="c1"># compile the regex pattern
+</span>    <span class="n">regex</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="n">pattern</span><span class="p">)</span>
+    
+    <span class="c1"># check if postcode matches the pattern
+</span>    <span class="k">if</span> <span class="n">regex</span><span class="p">.</span><span class="n">match</span><span class="p">(</span><span class="n">postcode</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">postcode</span><span class="si">}</span><span class="s"> - PASS"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">postcode</span><span class="si">}</span><span class="s"> - FAIL"</span><span class="p">)</span>
+
+
+<span class="c1"># use the function against the provided test cases, these should pass as far as i can tell
+# https://ideal-postcodes.co.uk/guides/uk-postcode-format
+</span><span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Should pass:"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"M1 1AA"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"M60 1NW"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"CR2 6XH"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"DN55 1PT"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"W1A 1HQ"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"EC1A 1BB"</span><span class="p">)</span>
+
+<span class="c1"># use the function against test cases that should fail
+</span><span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Should fail:"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"ZZZZZ 1"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"123 123"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"MA19 F12"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"9AF B99"</span><span class="p">)</span>
+<span class="n">validate_uk_postcode</span><span class="p">(</span><span class="s">"X0A1 H0F"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="output">Output</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python uk-postcode-regex.py
+<span class="o">&gt;</span>
+<span class="o">&gt;</span> Should pass:
+<span class="o">&gt;</span> M1 1AA - PASS
+<span class="o">&gt;</span> M60 1NW - PASS
+<span class="o">&gt;</span> CR2 6XH - PASS
+<span class="o">&gt;</span> DN55 1PT - PASS
+<span class="o">&gt;</span> W1A 1HQ - PASS
+<span class="o">&gt;</span> EC1A 1BB - PASS
+<span class="o">&gt;</span>
+<span class="o">&gt;</span> Should fail:
+<span class="o">&gt;</span> ZZZZZ 1 - FAIL
+<span class="o">&gt;</span> 123 123 - FAIL
+<span class="o">&gt;</span> MA19 F12 - FAIL
+<span class="o">&gt;</span> 9AF B99 - FAIL
+<span class="o">&gt;</span> X0A1 H0F - FAIL
+</code></pre></div></div>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Trevor&#39;s University of Essex ePortfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Trevor&#39;s University of Essex ePortfolio</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
