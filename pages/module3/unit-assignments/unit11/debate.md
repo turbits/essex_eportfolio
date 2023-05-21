@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit11/debate.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit11/m3u11.html)
 
-## Unit 11: Future Trends in Secure Software Development: Debate - Microservices and Microkernels
+# Unit 11: Future Trends in Secure Software Development: Debate - Microservices and Microkernels
 
 Instead of posting to the forum, I have included my response below. Unfortunately, again the quality of the course suffers, the line "The forum has a message that says: 'Torvalds has been proven wrong and it only took nearly thirty years. Microservices and microkernels are the future.'" is untrue, there is no post as such. There is also no reading material that it is in reference to. I have answered the question with just the quote provided.
 
-### 📝 Requirements
+## Requirements
 
 Read Appendix A: the Tanenbaum-Torvalds debate in DiBona & Ockman (1999) then read Fritzsch et al (2019).
 
@@ -17,11 +17,11 @@ The forum has a message that says: “Torvalds has been proven wrong and it only
 - On the forum post a message either agreeing or disagreeing with the above and give a justification (ideally with an academic reference) supporting your view.
 - Outside the forum, discuss your positions in your team and come up with a team stance. This should be shared in Unit 12.
 
-#### Learning Outcomes
+### Learning Outcomes
 - Critically analyse development problems and determine appropriate methodologies, tools and techniques (including program design and development) to solve them.
 - Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.
 
-### 🤔 Response
+## Response
 
 > “Torvalds has been proven wrong and it only took nearly thirty years. Microservices and microkernels are the future. “
 > ...give a justification (ideally with an academic reference) supporting your view.

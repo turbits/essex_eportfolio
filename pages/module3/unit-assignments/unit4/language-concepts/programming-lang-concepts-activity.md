@@ -5,9 +5,9 @@ permalink: /pages/module3/unit-assignments/unit4/language-concepts/programming-l
 
 ⬅️[Back](/pages/module3/unit-assignments/unit4/m3u4.html)
 
-## Unit 4: Programming Language Concepts Activity
+# Unit 4: Programming Language Concepts Activity
 
-### 📝 Requirements
+## Requirements
 
 Read Larson (2018) and Weidman (n.d.) then answer the questions below, adding them as evidence to your e-portfolio. You may want to complete this activity in conjunction with or after completing Seminar 2 preparation.
 
@@ -15,7 +15,7 @@ Read Larson (2018) and Weidman (n.d.) then answer the questions below, adding th
 - What are the common problems associated with the use of regex? How can these be mitigated?
 - How and why could regex be used as part of a security solution?
 
-### 🤔 Reflection
+## Reflection
 
 1. What is ReDOS and what part do "Evil Regex" play?
 
@@ -34,7 +34,7 @@ Regex can be used in many ways, but the most obvious way is to use it to validat
 Regex can also be used to ensure passwords meet minimum length and/or complexity requirements, restrict character input, identify patterns in spam emails or malicious code, validate or replace personally identifiable information (PII) such as credit card numbers, social insurance numbers, addresses, and much more.
 
 
-### ✒️ References
+## References
 
 - Weidman, A. (n.d.) Regular expression Denial of Service - ReDoS. Available at: [https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) [Accessed 27 March 2023]
 - Larson, E. (2018) Automatic Checking of Regular Expressions. Available at: [http://fac-staff.seattleu.edu/elarson/web/Research/acre.pdf](http://fac-staff.seattleu.edu/elarson/web/Research/acre.pdf) [Accessed 27 March 2023]

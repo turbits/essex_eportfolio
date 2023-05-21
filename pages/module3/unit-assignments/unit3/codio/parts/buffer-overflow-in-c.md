@@ -5,7 +5,7 @@ permalink: /pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-
 
 ⬅️[Back](/pages/module3/unit-assignments/unit3/codio/m3u3-codio.html)
 
-## Module 3: Unit 3: Codio Activity 1: Buffer Overflow in C
+# Module 3: Unit 3: Codio Activity 1: Buffer Overflow in C
 
 The instructions were to "click the rocket icon" which doesn't exist, to compile and run the bufoverflow.c file and observe the output. The rocket in the Codio UI must have been replaced with "Compile & Run" at some point since, which upon clicking resulted in the following output:
 

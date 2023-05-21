@@ -5,16 +5,16 @@ permalink: /pages/module3/unit-assignments/unit8/case-study-truecrypt.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit8/m3u8.html)
 
-## Unit 8: Cryptography Case Study: TrueCrypt
+# Unit 8: Cryptography Case Study: TrueCrypt
 
 My answer to follow.
 
-### 📝 Requirements
+## Requirements
 
 
 This discussion will last for 3 weeks covering units 8, 9 and 10. Ensure you include appropriate citations and references in all your posts (this is not included in the word count for each week's post/submission).
 
-#### Discussion Topic
+### Discussion Topic
 
 TrueCrypt was a popular and well-respected operating system add-on that could create encrypted volumes on a Windows and/or Linux system. In addition, it was also designed to create a complete, bootable volume that could encrypt the entire operating system and data for a Windows XP system. It was discontinued in 2014.
 
@@ -26,12 +26,12 @@ Remember to save this to your e-portfolio.
 
 Present an ontology design which captures the weaknesses of TrueCrypt, and organise them according to their severity. Expand the ontology design by considering the factors which will cause each weakness to become an issue from a user's perspective. For example, if a user wishes to encrypt a disk storing bank details using TrueCrypt, which weakness of the software might cause this specific user goal to be negatively impacted? 
 
-#### Learning Outcomes
+### Learning Outcomes
 - Identify and manage security risks as part of a software development project.
 - Critically analyse development problems and determine appropriate methodologies, tools and techniques (including program design and development) to solve them.
 - Design and develop/adapt computer programs and to produce a solution that meets the design brief and critically evaluate solutions that are produced.
 
-#### Assignment Guidance
+### Assignment Guidance
 - Your initial posting should respond to the question and be at least 200 words long.  This should be labelled as 'Initial Post'
 - You will then respond to at least 2 of your peers' posts in unit 2 (each labelled as 'Peer Response').  To guide your responses, look at the guidelines for the peer review process on the Department’s homepage. Focus on the possible measures that could have been put in place in order to prevent the incidents highlighted by your peers.  Please try to limit your response posts to 200-300 words maximum, so that others may be encouraged to reflect on, and respond to your ideas. 
 - In Unit 3, you should provide a summary post based on your initial post, the feedback from your peers and the content of the three units. Please label this as ‘Summary Post’. It should be 300 words.
@@ -41,7 +41,7 @@ Present an ontology design which captures the weaknesses of TrueCrypt, and organ
 
 ---
 
-### 🤔 Reflection/Answer
+## Reflection/Answer
 
 1. The (anonymous) TrueCrypt authors have said “Using TrueCrypt is not secure as it may contain unfixed security issues” (http://truecrypt.sourceforge.net/, 2014). Does the cryptanalysis provided above prove or disprove this assumption?
 - According to the cryptanalysis by Junestam & Guigo (2014), TrueCrypt is still secure enough to be used, regardless of what the authors claim. This is, or at least was, a point of contention at the time. Another team, VeraCrypt, picked up where TrueCrypt left off and has continued to develop the software.

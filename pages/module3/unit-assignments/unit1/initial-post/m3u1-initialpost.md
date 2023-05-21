@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit1/initial-post/m3u1-initialpost.h
 
 ⬅️[Back](/pages/module3/unit-assignments/unit1/m3u1.html)
 
-## Module 3: Unit 1: Initial Post
+# Module 3: Unit 1: Initial Post
 
-> ### Initial Post - Security Misconfiguration
+> ## Initial Post - Security Misconfiguration
 >
-> #### by Trevor Woodman - Wednesday, 1 February 2023, 8:39 PM
+> ### by Trevor Woodman - Wednesday, 1 February 2023, 8:39 PM
 >
 > I have created a sequence diagram using Sequence Diagram that shows the login process behind an external-facing login page for E Corp, and the process for a POST request bypassing the login page. Successfully authenticating leads to an internal GUI that allows the user to look up physical and electronic security and audit logs from a SQL database, primarily used by E Corp’s contracted security company.
 >
@@ -19,7 +19,7 @@ permalink: /pages/module3/unit-assignments/unit1/initial-post/m3u1-initialpost.h
 >
 > The flowchart provided shows login process and how it queries the SQL database. We can clearly see that, through misconfiguration, a bad actor could defeat client-side sanitization and validation and abuse the misconfigured SQL database.
 
-### Sequence Diagram (Text)
+## Sequence Diagram (Text)
 
 This markup language is used by: [https://sequencediagram.org](https://sequencediagram.org)
 
@@ -45,6 +45,6 @@ SQL Database->User:raw response from DB
 end
 ```
 
-### Sequence Diagram (Image)
+## Sequence Diagram (Image)
 
 ![sequence diagram](m3u1-sequence-diagram.png)

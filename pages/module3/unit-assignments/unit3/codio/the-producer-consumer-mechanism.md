@@ -5,13 +5,13 @@ permalink: /pages/module3/unit-assignments/unit3/codio/the-producer-consumer-mec
 
 ⬅️[Back](/pages/module3/unit-assignments/unit3/codio/m3u3-codio.html)
 
-## Module 3: Unit 3: Codio Activity 2: The Producer-Consumer Mechanism
+# Module 3: Unit 3: Codio Activity 2: The Producer-Consumer Mechanism
 
-### 🐕 Table of Contents
+## Table of Contents
 
-- 👉[My Answers to the Questions](/pages/module3/unit-assignments/unit3/codio/parts/prodcon-mechanism-answer.html)
+- 📃[My Answers to the Questions](/pages/module3/unit-assignments/unit3/codio/parts/prodcon-mechanism-answer.html)
 
-### Assignment Instructions
+## Assignment Instructions
 
 Producer/Consumer Problem (also known as the ‘bounded buffer’ problem):
 - A ‘producer’ is producing items at a particular (unknown and sometimes unpredictable) rate.
@@ -30,7 +30,7 @@ Synchronisation is necessary because:
 - Similarly, the consumer should not consume the same value twice.
 
 
-### Task
+## Task
 
 Run producer-consumer.py in the provided Codio workspace (Producer-Consumer Mechanism), where the queue data structure is used.
 

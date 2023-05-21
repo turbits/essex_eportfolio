@@ -5,21 +5,21 @@ permalink: /pages/module3/unit-assignments/unit6/seminar-prep.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit6/m3u6.html)
 
-## Unit 6: Seminar Preperation
+# Unit 6: Seminar Preperation
 
-### 🤔 My Reflections
+## My Reflections
 
 It is first worth noting that linting is such a common practice that I did not even think to mention it in the [Coding Output assignment](/pages/module3/assignment2/m3a2.html) for this Module. Unfortunately, I'm writing this post-submission, but the video walkthrough as part of that assignment clearly shows that the project was built using flake8 in vscode. In fact, at one point I commented out some code that was underlined because of it.
 
-### Assignment Requirements
+## Assignment Requirements
 
 These questions are provided in the Codio workspace – Testing with Python – where the activities should be completed.
 
-#### Question 1
+### Question 1
 - Run `styleLint.py` in Codio.
 - What happens when the code is run? Can you modify this code for a more favourable outcome? What amendments have you made to the code?
 
-#### Question 1: Answer
+### Question 1: Answer
 
 The code was run, and it returns the following:
 
@@ -54,13 +54,13 @@ def factorial(n):
 ```
 
 
-#### Question 2
+### Question 2
 - `pip install pylint`
 - Run `pylint` on pylintTest.py
 - Review each of the code errors returned. Can you correct each of the errors identified by pylint?
 - Before correcting the code errors, save the pylintTest.py file with a new name (it will be needed again in the next question).
 
-#### Question 2: Answer
+### Question 2: Answer
 
 Unfortunately, the Codio "box" or "environment" seems to be broken. I tried resetting the whole environment as well, which did not resolve the issue. The instructions clearly say to run `pip install pylint`, but when I do that, I get the following error:
 
@@ -124,13 +124,13 @@ print encoded
 ```
 
 
-#### Question 3
+### Question 3
 - `pip install flake8`
 - Run `flake8` on pylintTest.py
 - Review the errors returned. In what way does this error message differ from the error message returned by pylint?
 - Run flake8 on metricTest.py. Can you correct each of the errors returned by flake8? What amendments have you made to the code?
 
-#### Question 3: Answer
+### Question 3: Answer
 
 Thankfully, this pip install actually went okay. I installed flake8 and ran `flake8 pylintTest.py` and got the following output:
 
@@ -567,12 +567,12 @@ class D(C):
 ```
 
 
-#### Question 4
+### Question 4
 - pip install mccabe
 - Run `mccabe` on sums.py. What is the result?
 - Run `mccabe` on sums2.py. What is the result?
 
-#### Question 4: Answer
+### Question 4: Answer
 
 `pip install mccabe` completed successfully.
 
@@ -594,20 +594,20 @@ The output of `python -m mccabe sums2.py` is:
 ```
 
 
-#### Question 5
+### Question 5
 - (Trevor Note: I added this Question header, because the next line was just by itself)
 - What are the contributors to the cyclomatic complexity in each piece of code?
 
-#### Question 5: Answer
+### Question 5: Answer
 
 The contributors to the cyclomatic complexity are the number of linearly independent paths in the logic of the code. This includes but isn't limited to `if` statements, `try`/`except` blocks, `raise` statements, etc.
 
 
-#### Activity
+### Activity
 
 Select one or more of the tools installed above and use it/them to test the code your team has created as part of the summative assessment. You should demonstrate your tests (and share your results) during the Seminar. Discuss the need to change the code based on the output from the test tools/linters.
 
 
-#### Activity Answer
+### Activity Answer
 
 For this activity, please see the video walkthrough in [Assignment 2](/pages/module3/assignment2/m3a2.md) where the vscode footage shows that flake8 has been used whilst developing the project code. Unfortunately, it was not mentioned in the walkthrough or in the README as it's just so common. To write code without a linter would be like driving a car without a seatbelt, it's just common sense to use it.

@@ -5,10 +5,10 @@ permalink: /pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-
 
 ⬅️[Back](/pages/module3/unit-assignments/unit3/codio/m3u3-codio.html)
 
-## Module 3: Unit 3: Codio Activity 1: Buffer Overflow in Python
+# Module 3: Unit 3: Codio Activity 1: Buffer Overflow in Python
 
 
-### 📝 Requirements
+## Requirements
 
 Now carry out a comparison of this code with one in Python (Buffer Overflow in Python), following these instructions:
 

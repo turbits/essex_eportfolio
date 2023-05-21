@@ -5,7 +5,7 @@ permalink: /pages/module3/unit-assignments/unit3/collaborative-discussion/m3u3-c
 
 ⬅️[Back](/pages/module3/unit-assignments/unit3/m3u3.html)
 
-## Collaborative Discussion Post(s)
+# Collaborative Discussion Post(s)
 
 ![post1](initial_post1.jpg)
 ![post2](initial_post2.jpg)

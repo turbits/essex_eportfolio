@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit7/python-shell.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit7/m3u7.html)
 
-## Unit 7: Python Shell
+# Unit 7: Python Shell
 
 Assignment questions and answers to follow.
 
-### 🧑‍💻 Code
+## Code
 
 ```python
 import os
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
 ```
 
-### 🤔 Questions
+## Questions
 
 1. What are the two main security vulnerabilities with your shell?
     - The shell is vulnerable to code injection. We are not sanitising the "input()" function

@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit12/seminar-prep.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit12/m3u12.html)
 
-## Unit 12: Seminar Preparation
+# Unit 12: Seminar Preparation
 
 I did not complete this component as a team, and instead opted to complete it individually. I have included my answer below.
 
-### 📝 Requirements
+## Requirements
 
 Read Biggs et al (2018) and Bucchiarone et al (2018) as examples of modern views and approaches to the Monolithic vs. Microservices/ Microkernel debate.
 - Post your team’s stance to the forum along with justifications.
@@ -17,7 +17,7 @@ Read Biggs et al (2018) and Bucchiarone et al (2018) as examples of modern views
 - Choose one team response that disagrees with your team stance and post a message that refutes their argument.
 - During this week’s seminar session, all students will independently vote for which argument they believe was presented most persuasively.
 
-### 🤔 Response
+## Response
 
 The prompt "post your team's stance" isn't really thorough; our stance on what exactly? I have chosen to answer the question similar to the [last unit](/pages/module3/unit-assignments/unit11/debate.html) where I was asked to post my stance on the Tanenbaum-Torvalds debate, from the succint prompt "Are microservices and microkernels the future?".
 

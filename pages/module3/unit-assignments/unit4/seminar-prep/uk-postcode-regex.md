@@ -6,11 +6,11 @@ permalink: /pages/module3/unit-assignments/unit4/seminar-prep/uk-postcode-regex.
 ⬅️[Back](/pages/module3/unit-assignments/unit4/seminar-prep/seminar-preparation.html)
 
 
-## Unit 4: Seminar Preparation: UK Postcode Regex
+# Unit 4: Seminar Preparation: UK Postcode Regex
 
 See below the code block for an output example.
 
-### 🧑‍💻 Code
+## Code
 
 ```python
 import re
@@ -49,7 +49,7 @@ validate_uk_postcode("9AF B99")
 validate_uk_postcode("X0A1 H0F")
 ```
 
-### Output
+## Output
 
 ```bash
 $ python uk-postcode-regex.py

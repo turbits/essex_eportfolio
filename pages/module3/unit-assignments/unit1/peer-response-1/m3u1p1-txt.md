@@ -5,17 +5,17 @@ permalink: /pages/module3/unit-assignments/unit1/peer-response-1/m3u1p1-txt.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit1/m3u1.html)
 
-## Module 3: Unit 1: Peer Response 1
+# Module 3: Unit 1: Peer Response 1
 
 This is a unit assignment component of [Secure Software Development](/pages/module3.html) - [Unit 1](/pages/module3/unit-assignments/unit1/m3u1.html).
 
-- 👉[Image Version](/pages/module3/unit-assignments/unit1/peer-response-1/m3u1p1.html)
+- 📃[Image Version](/pages/module3/unit-assignments/unit1/peer-response-1/m3u1p1.html)
 
-#### Uthman Adams' Initial Post
+### Uthman Adams' Initial Post
 
-> ##### Initial Post - Broken Authentication
+> #### Initial Post - Broken Authentication
 >
-> ###### by Uthman Adams - Thursday, 2 February 2023, 11:16 AM
+> ##### by Uthman Adams - Thursday, 2 February 2023, 11:16 AM
 >
 > One of the top 10 vulnerabilities as identified by OWASP, is broken authentication (OWASP, 2021). A significant security risk might arise from improperly implemented authentication and session management calls. These flaws could make it simple for attackers to assume the identities of authorized users.
 >
@@ -29,11 +29,11 @@ This is a unit assignment component of [Secure Software Development](/pages/modu
 >
 > OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 1 February 2023].
 
-#### My Peer Response
+### My Peer Response
 
-> ##### Peer Response
+> #### Peer Response
 >
-> ###### by Trevor Woodman - Thursday, 2 February 2023, 6:08 PM
+> ##### by Trevor Woodman - Thursday, 2 February 2023, 6:08 PM
 >
 > Hi Uthman,
 >

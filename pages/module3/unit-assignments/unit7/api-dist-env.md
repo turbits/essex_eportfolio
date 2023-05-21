@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit7/api-dist-env.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit7/m3u7.html)
 
-## Unit 7: Developing an API for a Distributed Environment
+# Unit 7: Developing an API for a Distributed Environment
 
 Unit assignment questions and answers to follow.
 
-### 📝 Requirements
+## Requirements
 
 In this session, you will create a RESTful API which can be used to create and delete user records. Responses to the questions should be recorded in your e-portfolio.
 
@@ -103,10 +103,10 @@ app.run(debug=True)
 
 ---
 
-### 🤔 Questions
+## Questions
 
 
-#### Question 1
+### Question 1
 - Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?
 
 The unit assignment says to use Jupyter notebook in the Codio environment, but it appears that the packages required to run flask are not able to be installed:
@@ -122,7 +122,7 @@ This is the output when run from my local machine after installing `flask` and `
 ![](/pages/module3/unit-assignments/unit7/api-dist-out.jpg)
 
 
-#### Question 2
+### Question 2
 - Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Ann
 - What happens when this command is run, and why?
 
@@ -138,7 +138,7 @@ When sending a GET request from Postman to `http://127.0.0.1:5000/user/Ann` I ge
 }
 ```
 
-#### Question 3
+### Question 3
 - Run the following command at the terminal prompt: w3m http://127.0.0.1:5000/user/Adam
 - What happens when this command is run, and why?
 
@@ -146,14 +146,14 @@ When sending a GET request from Postman to `http://127.0.0.1:5000/user/Ann` I ge
 "User not found"
 ```
 
-#### Question 4
+### Question 4
 - What capability is achieved by the flask library?
 
 Flask is a lightweight web framework for Python. It's classified as a microframework, which means that it does not include many built-in features from a more complex framework, such as Django, but it offers a simple and extendable base for building web applications.
 
 Flask has some key features, such as routing, templating, and form handling, that make it quick and easy to build a lightweight web application.
 
-#### Architecture Evolution Activity
+### Architecture Evolution Activity
 - Based on your reading this week, could you write a section that might be appended to this paper, Salah et al, 2016, which would present the next phase of evolution history, from microservices to the technologies which are commonly in use today?
 
 Since this paper was written, there have been several key developments from a software architecture perspective. One of the most significant trends is containerization, using technology such as Docker. Containers are a portable and lightweight way to package software. Another development has been the rise of serverless architecture, a logical progression from the classic model of on premises servers to the cloud. Cloud computing offers a level of scalability, flexibility, and cost-efficiency never seen before. It also has the benefit of exchanging capital expenses for operational expenses, something that most companies would deem a very positive change.

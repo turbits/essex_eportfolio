@@ -6,11 +6,11 @@ permalink: /pages/module3/unit-assignments/unit4/seminar-prep/tower-of-hanoi.htm
 ⬅️[Back](/pages/module3/unit-assignments/unit4/seminar-prep/seminar-preparation.html)
 
 
-## Unit 4: Seminar Preparation: Tower of Hanoi
+# Unit 4: Seminar Preparation: Tower of Hanoi
 
 See below the code block for an output example.
 
-### 🧑‍💻 Code
+## Code
 
 ```python
 import sys
@@ -64,7 +64,7 @@ hanoi(number_of_disks, source_peg, target_peg, auxiliary_peg, pegs)
 print_moves(number_of_disks)
 ```
 
-### Output Example
+## Output Example
 
 ```bash
 $ python tower-of-hanoi.py
@@ -88,7 +88,7 @@ $ Enter number of disks: 4
 > Total moves: 15
 ```
 
-### Output Example With 55 Disks (RecursionError)
+## Output Example With 55 Disks (RecursionError)
 
 ```bash
 $ python tower-of-hanoi.py

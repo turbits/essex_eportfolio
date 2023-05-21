@@ -5,9 +5,9 @@ permalink: /pages/module3/unit-assignments/unit3/codio/parts/prodcon-mechanism-a
 
 ⬅️[Back](/pages/module3/unit-assignments/unit3/codio/the-producer-consumer-mechanism.html)
 
-## Module 3: Unit 3: Codio Acitivty 3: Producer Consumer Mechanism
+# Module 3: Unit 3: Codio Acitivty 3: Producer Consumer Mechanism
 
-### The Code
+## The Code
 
 ```python
 from threading import Thread
@@ -41,7 +41,7 @@ q.join()
 print (final_results)
 ```
 
-### The Questions and Answers
+## The Questions and Answers
 
 1. How is the queue data structure used to achieve the purpose of the code?
     - A: The queue data structure is used to store the numbers that are produced. The consumer thread consumes the numbers from the queue. The queue is used to synchronise the producer and consumer threads.

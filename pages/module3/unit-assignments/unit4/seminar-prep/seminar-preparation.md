@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit4/seminar-prep/seminar-preparatio
 
 ⬅️[Back](/pages/module3/unit-assignments/unit4/m3u4.html)
 
-## Unit 4: Seminar Preparation
+# Unit 4: Seminar Preparation
 
-### 📝 Requirements
+## Requirements
 
-#### Recursion
+### Recursion
 
 One of the classic programming problems that is often solved by recursion is the towers of Hanoi problem. A good explanation and walkthrough are provided by Cormen & Balkcom (n.d.) - the link is in the reading list. (the code they used for their visual example is provided on their website as well).
 
@@ -17,7 +17,7 @@ One of the classic programming problems that is often solved by recursion is the
 2. What is the (theoretical) maximum number of disks that your program can move without generating an error?
 3. What limits the number of iterations? What is the implication for application and system security?
 
-#### Regex
+### Regex
 
 The second language concept we will look at is regular expressions (regex). We have already presented some studies on their use, and potential problems, above. The lecturecast also contains a useful link to a tutorial on creating regex. Re-read the provided links and tutorial (Jaiswal, 2020) and then attempt the problem presented below:
 
@@ -33,9 +33,9 @@ Create a python program that implements a regex that complies with the rules pro
 2. How do you ensure your solution is not subject to an evil regex attack?
 
 
-### 🤔 Reflection
+## Reflection
 
-#### Recursion
+### Recursion
 
 1. See the following links for this unit assignment:
 - 🧑‍💻[Python program for Tower of Hanoi problem - download .py file](tower-of-hanoi.py)
@@ -45,7 +45,7 @@ Create a python program that implements a regex that complies with the rules pro
 
 3. The number of iterations are limited by the recursion limit. The implication for application and systems security is that if the recursion limit is too low, and the program relies on deep recursion, it will crash. If the recursion limit is too high or not set, the program may crash due to a stack overflow. The recursion limit can be exploited by a malicious actor to intentionally crash a program, or to cause a denial of service attack. Stack overflows can also be exploited to do various things, including code injection due to memory corruption.
 
-#### Regex
+### Regex
 
 1. See the following links for this unit assignment:
 - 🧑‍💻[Python program for UK postcode regex - download .py file](uk-postcode-regex.py)

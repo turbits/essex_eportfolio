@@ -5,13 +5,13 @@ permalink: /pages/module3/unit-assignments/unit7/ontology.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit7/m3u7.html)
 
-## Unit 7: What is an Ontology?
+# Unit 7: What is an Ontology?
 
-### 📝 Requirements
+## Requirements
 
 What do you understand about the ontology that has been presented for your reading this week? Could you attempt to define an ontology that would be relevant to the system that you are designing for the summative assessment?
 
-### 🤔 Answer
+## Answer
 
 I understand that an ontology is a structured representation of concepts, properties, relationships, and constraints within a specific domain. It serves as a means to enhance the understanding, communication, and interoperability between various components and stakeholders involved in a system.
 

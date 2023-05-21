@@ -5,9 +5,9 @@ permalink: /pages/module3/unit-assignments/unit5/equivalence-testing-in-python.h
 
 ⬅️[Back](/pages/module3/unit-assignments/unit5/m3u5.html)
 
-### Module 3: Unit 3: Codio Activity: Equivalence Testing in Python
+# Module 3: Unit 3: Codio Activity: Equivalence Testing in Python
 
-#### Assignment Instructions
+## Assignment Instructions
 
 Run equivalence.py in the Codio workspace - Testing with Python - which is an implementation of equivalence partitioning. This test partitions integers [-3,5] into equivalence classes based on `lambda x, y: (x-y)%4 == 0`.
 
@@ -22,10 +22,10 @@ You should carry out further investigations on the code and experiment with it.
 
 Remember to record your results, ideas and team discussions in your e-portfolio.
 
-#### 🤔 My Reflections
+## My Reflections
 
 
-##### Default Run of equivalence.py
+### Default Run of equivalence.py
 
 codio@kansaslegacy-diagramsantana:~/workspace$ python equivalence.py 
 
@@ -46,7 +46,7 @@ set([0, 4])
 (-1, ':', set([3, -1]))
 ```
 
-##### Modifying the range
+### Modifying the range
 
 codio@kansaslegacy-diagramsantana:~/workspace$ python equivalence.py 
 

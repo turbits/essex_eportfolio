@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit8/seminar-prep.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit8/m3u8.html)
 
-## Unit 8: Seminar Prep
+# Unit 8: Seminar Prep
 
 Unit assignment code, questions, and answers to follow.
 
-### 📝 Requirements
+## Requirements
 
 Read the Cryptography with Python blog at tutorialspoint.com (link is in the reading list). Select one of the methods described/ examples given and create a python program that can take a short piece of text and encrypt it.
 
@@ -27,7 +27,7 @@ Remember to record your results, ideas and team discussions in your e-portfolio 
 - Critically analyse development problems and determine appropriate methodologies, tools and techniques (including program design and development) to solve them.
 - Design and develop/adapt computer programs and to produce a solution that meets the design brief and critically evaluate solutions that are produced.
 
-### 🤔 Answer/Code
+## Answer/Code
 
 > Create a python program in Codio (you can use the Jupyter Notebooks space provided in the Codio resources section) that can take a text file and output an encrypted version as a file in your folder on the Codio system. Demonstrate your program operation in this week’s seminar session.
 

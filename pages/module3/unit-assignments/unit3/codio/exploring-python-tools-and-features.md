@@ -5,17 +5,17 @@ permalink: /pages/module3/unit-assignments/unit3/codio/exploring-python-tools-an
 
 ⬅️[Back](/pages/module3/unit-assignments/unit3/codio/m3u3-codio.html)
 
-## Module 3: Unit 3: Codio Activity 1: Exploring Python Tools and Features
+# Module 3: Unit 3: Codio Activity 1: Exploring Python Tools and Features
 
-### 🐒 Table of Contents
+## Table of Contents
 
-- 👉[Buffer Overflow in C](/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-c.html)
-- 👉[Buffer Overflow in Python](/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-python.html)
+- 📃[Buffer Overflow in C](/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-c.html)
+- 📃[Buffer Overflow in Python](/pages/module3/unit-assignments/unit3/codio/parts/buffer-overflow-in-python.html)
 
 
-### Assignment Instructions
+## Assignment Instructions
 
-#### Part I
+### Part I
 
 In this example, you will compile and run a program in C using the Codio workspace provided (Buffer Overflow in C). The program is already provided as bufoverflow.c - a simple program that creates a buffer and then asks you for a name, and prints it back out to the screen.
 
@@ -39,7 +39,7 @@ Run the code a second time (from the command window this can be achieved by ente
 - What happens?
 - What does the output message mean?
 
-#### Part II
+### Part II
 
 Now carry out a comparison of this code with one in Python (Buffer Overflow in Python), following these instructions:
 

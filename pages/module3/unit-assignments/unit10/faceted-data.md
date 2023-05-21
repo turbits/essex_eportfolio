@@ -5,11 +5,11 @@ permalink: /pages/module3/unit-assignments/unit10/faceted-data.html
 
 ⬅️[Back](/pages/module3/unit-assignments/unit10/m3u10.html)
 
-## Unit 10: From Distributed Computing to Microarchitectures: Faceted Data
+# Unit 10: From Distributed Computing to Microarchitectures: Faceted Data
 
 My answers to follow. Unfortunately, the "article" is not in the Unit 10 reading list but I did manage to find it in the module resources reading list link; apparently the "article" is from Unit 12. The article title is "Faceted Dynamic Information Flow via Control and Data Monads" by Schmitz et al (2016), and is available [here](http://kennknowles.com/research/schmitz-rhodes-austin-knowles-flanagan.post.16.faceted.pdf).
 
-### 📝 Requirements
+## Requirements
 
 Read Schmitz et al (2016) article about faceted data.
 - Do you think this is a good approach to protect systems from data leakage? What are the pros and cons?
@@ -17,7 +17,7 @@ Read Schmitz et al (2016) article about faceted data.
 
 Add your answers to your e-portfolio.
 
-### 🤔 Reflection/Answers
+## Reflection/Answers
 
 > Do you think this is a good approach to protect systems from data leakage? What are the pros and cons?
 
