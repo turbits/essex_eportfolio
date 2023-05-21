@@ -6,7 +6,7 @@
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
       <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-        <img height="80px" width="auto" src="{{ "/assets/wsg_logo.png" | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.title | escape }}" />
+        <img height="80px" width="auto" src="{{ "/assets/wsg_logo.png" | relative_url }}" alt="{{ site.title | escape }}" />
         <div class="site-title-text">
           <p class="title-text">TREVOR WOODMAN</p>
           <p class="subtitle-text">UoEO ePortfolio</p>
