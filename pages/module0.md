@@ -19,7 +19,7 @@ As part of the induction, we were to write a 750 word essay on the topic of "Dis
   - 📃[Induction Essay - docx (Clicking this will download it)](/pages/module0/pg-induction-assignment-tw.docx)
   - 📃[Induction Essay - Markdown](/pages/module0/pg-induction-assignment.html)
 
-## Grading
+## 🎓 Grading
 
 | Artefact        | Grade  |
 | --------------- | ------ |

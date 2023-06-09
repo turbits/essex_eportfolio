@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /pages/module4/assignment1/tw-copperplate-executivesummary-m4a2.html
+permalink: /pages/module4/assignment2/tw-copperplate-executivesummary-m4a2.html
 ---
 
-⬅️[Back](/pages/module4/assignment1/m4a2.html)
+⬅️[Back](/pages/module4/assignment2/m4a2.html)
 
 # Assignment 2: Vulnerability Audit and Assessment - Results and Executive Summary
 
-This is the markdown version of the assignment. For the super nice Word doc version, click [here](/pages/module4/assignment1/TW_Copperplate_ExecutiveSummary_M4A2.docx) to download it.
+This is the markdown version of the assignment. For the super nice Word doc version, click [here](/pages/module4/assignment2/TW_Copperplate_ExecutiveSummary_M4A2.docx) to download it.
 
 ---
 
