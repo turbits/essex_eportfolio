@@ -10,7 +10,7 @@ I have set up a basic Jekyll site to display this ePortfolio. The site is hosted
 
 ## Build Project
 
-- Install Ruby ~>3.1.3, run ridk install and select MSYS2 and MINGW development toolchain from the options
+- Install Ruby w/ DevKit ~>3.1.3, run ridk install and select MSYS2 and MINGW development toolchain from the options (3)
 - Open a new terminal window (PATH changes)
 - Install jekyll and bundler gems: `gem install jekyll bundler`
 - Navigate to the root of the project
