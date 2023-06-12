@@ -5,12 +5,12 @@ permalink: /pages/module4/unit-assignments/unit1/collab-discussion.html
 
 ⬅️[Back](/pages/module4/unit-assignments/unit1/m4u1.html)
 
-## 📝 Unit 1: Collab Discussion: Digitalisation
+# 📝 Unit 1: Collab Discussion: Digitalisation
 - What are the security implications of the digital economy?
 
 My answer is available [here](#my-initial-post)
 
-### Discussion Topic
+## Discussion Topic
 
 Read Wei et al. (2019) and Spremic and Simunic (2018) and then post a message that reflects your thoughts and responses to the questions below. You should support your arguments with appropriate academic references.
 
@@ -20,11 +20,11 @@ In your responses, consider the following questions:
 - What are the cyber security challenges for a bricks and mortar SME wanting to become a digital enterprise?
 - Do you agree with the views expressed, especially in light of the 'energy crisis' experienced worldwide in 2022?
 
-### Learning Outcomes
+## Learning Outcomes
 - Identify and analyse security threats and vulnerabilities in network systems and determine appropriate methodologies, tools and techniques to manage and/or solve them.
 - Articulate the legal, social, ethical and professional issues faced by information security and risk professionals.
 
-### Discussion Guidance
+## Discussion Guidance
 - Your initial posting should respond to the question and be at least 200 words long. This should be labelled as 'Initial Post'
 - You will then respond to at least 2 of your peers' posts in Unit 2 (each labelled as 'Peer Response'). To guide your responses, look at the guidelines for the peer review process on the department’s home page. Focus on the possible measures that could have been put in place in order to prevent the incidents highlighted by your peers.  Please try to limit your response posts to 200-300 words maximum, so that others may be encouraged to reflect on, and respond to your ideas. 
 - In Unit 3, you should provide a summary post based on your initial post, the feedback from your peers and the content of the three units. Please label this as ‘Summary Post’. It should be 300 words.
@@ -32,7 +32,7 @@ In your responses, consider the following questions:
 - You will be not be assessed on your contribution to this forum throughout the module, but the tutor will post group feedback via a module announcement.
 - This activity forms a component of your e-portfolio which you should continue to build throughout your programme. All e-portfolio activities are intended to demonstrate your ability and strengths through evidence and reflection.
 
-### My Initial Post
+## My Initial Post
 
 A "(fully) digital enterprise" is never explicitly defined in the article, but it can be defined as an organisation that holistically employs technology to improve every aspect of its operations. This is not digitisation that is limited to an IT department, but digitisation that encompasses how every member or employee operates in some fashion. The idea of a fully digital enterprise is enticing as it allows for unmatched efficiency, automation, and scalability. However, this level of digitisation also comes with a significant amount of risk.
 
