@@ -811,6 +811,18 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  color: #d88641;
+  text-decoration: none;
+}
+a:visited {
+  color: #d88641;
+}
+a:hover {
+  color: #e79552;
+  text-decoration: underline;
+}
+
 hr {
   border-top: 4px dashed #0d0d0d;
 }
