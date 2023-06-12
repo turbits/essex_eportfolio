@@ -9,8 +9,8 @@ permalink: /pages/module4/unit-assignments/unit4/collab-log4j.html
 
 ## Table of Contents
 
-👉[My Reflection](#my-reflection)
-👉[Initial Post](#initial-post)
+- 👉[My Reflection](#my-reflection)
+- 👉[Initial Post](#initial-post)
 
 ## Activity Description
 
