@@ -5,11 +5,11 @@ permalink: /pages/module4/unit-assignments/unit2/seminar-prep.html
 
 ⬅️[Back](/pages/module4/unit-assignments/unit2/m4u2.html)
 
-## Seminar Activity - The Solar Winds Breach Case Study
+# Seminar Activity - The Solar Winds Breach Case Study
 
 👉[My Case Study](#my-case-study)
 
-### Instructions
+## Instructions
 
 Read the Solar Winds article by Temple-Raston (2021) and the description of the Cyber Kill Chain model (Hutchins et al, 2011) and carry out the following activities:
 - Create a table that analyses the solar winds exploit using the Cyber Kill Chain. Are there any phases that you cannot identify?
@@ -22,7 +22,7 @@ Learning Outcomes
 - Articulate the legal, social, ethical and professional issues faced by information security and risk professionals.
 
 
-### My Case Study
+## My Case Study
 
 1. Create a table that analyses the solar winds exploit using the Cyber Kill Chain. Are there any phases that you cannot identify?
 

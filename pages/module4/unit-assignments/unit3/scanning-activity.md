@@ -5,13 +5,13 @@ permalink: /pages/module4/unit-assignments/unit3/scanning-activity.html
 
 ⬅️[Back](/pages/module4/unit-assignments/unit3/m4u3.html)
 
-## Unit 3: Scanning Activity
+# Unit 3: Scanning Activity
 
-### ✨ Table of Contents
+## ✨ Table of Contents
 
 - 👉[My Reflection](#my-reflection)
 
-### Activity Description
+## Activity Description
 
 Using the website(s) assigned to you in Unit 1, carry out the following exercises and answer the questions listed below. Ideally, you should complete this task before the next seminar, where it will be discussed further. Your findings/results from this exercise will be utilised specifically for the preparation of the 'Vulnerability Audit and Assessment - Results and Executive Summary' assessment in Unit 6.
 
@@ -42,7 +42,7 @@ Reflect on this activity by answering the following questions:
 **Record all reflections in your e-portfolio.**
 
 
-### My Reflection
+## My Reflection
 
 The website I was assigned (that I chose) was https://copperplate.org.uk. As directed, I completed several scans on the domain, using traceroute, dig, and nslookup. My findings are as follows:
 
