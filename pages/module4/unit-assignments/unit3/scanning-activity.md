@@ -7,7 +7,7 @@ permalink: /pages/module4/unit-assignments/unit3/scanning-activity.html
 
 # Unit 3: Scanning Activity
 
-## ✨ Table of Contents
+## Table of Contents
 
 - 👉[My Reflection](#my-reflection)
 
