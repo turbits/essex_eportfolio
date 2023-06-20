@@ -9,13 +9,13 @@ permalink: /pages/module5/unit-assignments/unit1/m5u1-reflective.html
 
 - 👉[Reflective Activity Description](/pages/module5/unit-assignments/unit1/m5u1-reflective-description.html)
 
+<br/>
+<br/>
+<br/>
+
 # Reflective Activity - Ethics in Computing
 
 Authored by Trevor Woodman, June 20th, 2023
-
-<br/>
-<br/>
-<br/>
 
 As a practicing computing professional currently working for a company, I am acutely aware of ethical issues regarding a host of information-related concerns and how they impact me and my responsibilities. The statement from Stahl et al. (2016), "many of the authors involved in researching the ethics of computing remain wedded to their disciplinary traditions and fail to provide actionable advice to relevant stakeholders" highlights a distinct and prevalent issue in the field both in practice and in research. It could be indifference, incompetence, or simply not having the capacity, but in my opinion one or more of these concerns are the root cause of forward progress in the field of ethics as they relate to the information technology industry. A researcher that is either paid or has the time and drive to dedicate to a research on ethics in various fields obviously has a prime motivator to provide as detailed a report as they wish. A computing professional in the field often has so little time to dedicate to anything outside of work that something like ethics often fall by the wayside, even if the professional is vigilent and applying best practice, the scope of concerns is simply too large to be able to address everything. As I have previously written about, a large majority of companies have IT departments that are severely understaffed (Woodman, 2023), and I believe this is the single most important factor. If there is no capacity to address ethics concerns, then they will continue to be a lesser priority.
 
