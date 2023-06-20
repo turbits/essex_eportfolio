@@ -18,3 +18,4 @@ This ePortfolio is a repository of my code, reflective pieces, and other essays 
 - 📦[Module 2 - Object Oriented Programming](/pages/module2.html)
 - 🔏[Module 3 - Secure Software Development](/pages/module3.html)
 - 🌐[Module 4 - Network Security](/pages/module4.html)
+- ✍️[Module 5 - Research Methods and Professional Practices](/pages/module5.html)
