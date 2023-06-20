@@ -7,7 +7,7 @@ permalink: /pages/module5/unit-assignments/unit1/m5u1-description.html
 
 # Unit 1: Scientific Investigation and Ethics - Unit Description
 
-This description was taken from https://www.my-course.co.uk/course/view.php?id=10163 on 15 June, 2023.
+This description was taken from https://www.my-course.co.uk/course/view.php?id=10163&section=7 on 15 June, 2023.
 
 ---
 
