@@ -825,6 +825,7 @@ a:hover {
 
 hr {
   border-top: 4px dashed #0d0d0d;
+  border-bottom: none;
 }
 
 .highlight {
