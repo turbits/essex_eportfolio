@@ -52,3 +52,22 @@ QuestionPro (2021). What is research?
 Mitchell, J. (2018) Ethics vs Morality.
 
 Miessler, D. (2020) The Difference between Deductive and Inductive Reasoning.
+
+
+**Assessment Information**
+
+**Choosing the topic for your literature review and presentation.**
+
+The topic of your literature review can only be selected from the pre-determined list of topics areas provided (see bottom of unit 1). Please see the list of topic areas and start to think which area you would like to investigate. Your literature review is due in Unit 7 and you can submit an outline for the review in Unit 4. This outline submission will receive formative feedback only, to help you in your final submission. You can use the same topic for your research proposal presentation, due in unit 10. You can also submit an outline of the presentation in Unit 8, for formative feedback only.
+
+If you are on the MSc stream (or are a current PG Dip student looking to progress towards a MSc), you can use the topic of your capstone project for your research proposal. A few points to note:
+- Your literature review cannot be on the same topic as your capstone project. Reusing substantive sections of your own work will be considered as self-plagiarism, which is an academic offence. Hence, your literature review would need to be substantially different to that you will be developing/using in the Project module/Dissertation submission.
+- In the Project module, you will have to create a formal research proposal to be reviewed by your project supervisors (formative but compulsory). This is to ensure that your project is viable and meets the specified criteria for your chosen area of research. The assessment in this module cannot capture the requirements of a proposal submission in its entirety, particularly if your tutor is not a specialist in the specified research area. However, it will provide a valuable starting point for your research proposal submission in the Project module.
+
+There are various formative activities throughout the module to help you in the development of your literature review and research proposal.
+
+**Worksheets and Analysis**
+
+In unit 12, as part of the module assessment, you are required to include the analyses/worksheets from the Unit 8 and 9 formative activities in your e-portfolio. You also have the opportunity to submit them for formative feedback in Unit 10.
+
+**Please note that both analyses (Units 8 and 9) are mandatory.**
