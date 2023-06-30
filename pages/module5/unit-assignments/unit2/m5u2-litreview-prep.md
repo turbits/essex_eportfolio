@@ -33,11 +33,10 @@ To locate and select sources for inclusion in my review I used Google Search Eng
 ### 5. How is your review structured?
 
 1. Abstract
-2. Introduction
-3. Impact of Communication Technology on Employee Productivity
-4. Factors Influencing the Impact of Communication Technology
-5. Conclusion
-6. References
+2. Impact of Communication Technology on Employee Productivity
+3. Factors Influencing the Impact of Communication Technology
+4. Conclusion
+5. References
 
 ### 6. What are the main findings in the literature on this topic?
 
