@@ -12,8 +12,8 @@ Due to time constraints, these worksheets are only available as downloadable Exc
 Unfortunately, this unit had exceptionally confusing naming for the activities and the files, apologies for the readability issues. I am showing them here as they are referenced (in order) during the unit and in the worksheets for grading purposes.
 
 ## Table of Contents
-- 👉[Unit 8: Activity: Summary Measures Worksheet](/pages/module5/unit-assignments/unit8/m5u8-worksheet1.html)
-- 👉[Unit 8: Activity: Hypothesis Testing Worksheet](/pages/module5/unit-assignments/unit8/m5u8-worksheet2.html)
+- 👉[Unit 8: Activity: Summary Measures Worksheet](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet1-summary.html)
+- 👉[Unit 8: Activity: Hypothesis Testing Worksheet](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet2-hypothesis.html)
 
 ## Summary Measures Activities
 - 👉[Unit 8: Activity: Summary Measures Exercise 8.1](#exercise-81)
@@ -48,19 +48,19 @@ Evaluate critically existing literature, research design and methodology for
 
 ### Exercise 8.1
 
-> Briefly interpret your findings. What do these results tell you about the relative effectiveness of the two weight-reducing diets?
+***Briefly interpret your findings. What do these results tell you about the relative effectiveness of the two weight-reducing diets?***
 
 The results indicate that diet A is more effective than diet B. The mean weight loss for diet A is 5.341kg, while the mean weight loss for diet B is 3.710kg. Furthermore, the standard deviation is 2.536 for diet A and 2.769 for diet B, showing that diet B had slightly more varied results.
 
 ### Exercise 8.2
 
-> Briefly interpret your findings. What do these results tell you about the relative effectiveness of the two weight-reducing diets?
+***Briefly interpret your findings. What do these results tell you about the relative effectiveness of the two weight-reducing diets?***
 
 In diet A, the mean is slightly lower than the median, indicating a slight negative skew. In diet B, it is similar, but the mean has a comparitively smaller deviation from the median, indicating a more symmetrical distribution of results.
 
 ### Exercise 8.3
 
-> Briefly interpret your findings. What do these results tell you about the patterns of brand preferences for each of the two demographic areas?
+***Briefly interpret your findings. What do these results tell you about the patterns of brand preferences for each of the two demographic areas?***
 
 Area 1 greatly prefers "Other" brand, comparitive to A or B. Area 2 has a comparitively more distributed preference, but still favours "Other". Brand A is the least popular in both areas.
 
@@ -68,13 +68,13 @@ Area 1 greatly prefers "Other" brand, comparitive to A or B. Area 2 has a compar
 
 Agent1 and Agent2 are air filters, the values in these columns represent the impurity of the air after filtration per batch.
 
-> Assuming the data to be suitably distributed, complete a two-tailed test of whether the population mean impurity differs between the two filtration agents, and interpret your findings.
+***Assuming the data to be suitably distributed, complete a two-tailed test of whether the population mean impurity differs between the two filtration agents, and interpret your findings.***
 
 The t-value is -3.26 with 11 df, and a p value of 0.003. The magnitude of the t-value indicates that there is a substantial difference between the two agents' mean impurity. Since the p-value is less than the conventional significance level of 0.05, we can reject the null hypothesis that the two agents are equally effective.
 
 ### Exercise 8.5
 
-> Suppose instead a one-tailed test had been conducted to determine whether Filter Agent 1 was the more effective [agent]. What would your conclusions have been?
+***Suppose instead a one-tailed test had been conducted to determine whether Filter Agent 1 was the more effective [agent]. What would your conclusions have been?***
 
 Assuming that we want to test if Agent2 is more effective than Agent1, our null hypothesis (H0) states that there is no difference or that the mean of Agent2 is greater than or equal to that of Agent1. Our alternative hypothesis (H1), would state that the mean of Agent1 is greater than that of Agent2.
 
@@ -87,7 +87,7 @@ The one-tailed p-value is 0.003, which is less than the conventional significanc
 
 ### Exercise 8.6
 
-> Assuming the data can be suitably distributed, complete an appropriate test of whether the population mean income for males exceeds that of females and interpret your findings. What assumptions underpin the validity of your analysis, and how could you validate them?
+***Assuming the data can be suitably distributed, complete an appropriate test of whether the population mean income for males exceeds that of females and interpret your findings. What assumptions underpin the validity of your analysis, and how could you validate them?***
 
 The dataset is comprised of 120 data points of both male and female incomes, 60 each. Upon running an F-test, we receive the following values:
 F-test:
