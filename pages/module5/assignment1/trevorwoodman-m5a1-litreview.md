@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /pages/module5/assignment1/trevorwoodman_m5a1_litreview.html
+permalink: /pages/module5/assignment1/trevorwoodman-m5a1-litreview.html
 ---
 
 ⬅️[Back](/pages/module5/assignment1/m5a1.html)
 
 # Module 5: Assignment 1: Literature Review
 
-👀 README: This is the markdown version of the literature review, available in a *much* prettier docx version [here](/pages/module5/assignment1/TrevorWoodman_M5A1_The-Impact-of-Communication-Technology-on-Employee-Productivity-During-Government-Mandated-Lockdown.docx). Please read the docx if you can, it is formatted as per Essex guidelines and reads easier.
+👀 README: This is the markdown version of the literature review, available in a *much* prettier docx version [here](/pages/module5/assignment1/TrevorWoodman_M5A1_LiteratureReview.docx). Please read the docx if you can, it is formatted as per Essex guidelines and reads easier.
 
 <br/>
 <br/>
