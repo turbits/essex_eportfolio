@@ -27,5 +27,5 @@ This module is titled **Network Security**, it is part of the ***University of E
 | Artefact                           | Grade                |
 | ---------------------------------- | -------------------- |
 | Assignment 1: Vulnerability Audit and Assessment - Baseline Analysis and Plan | Pass ✅ |
-| Assignment 2: Vulnerability Audit and Assessment - Results and Executive Summary   | Ungraded🚧       |
-| Assignment 3: Individual Reflective Piece | Ungraded🚧 |  
+| Assignment 2: Vulnerability Audit and Assessment - Results and Executive Summary   | Pass ✅ - Merit  |
+| Assignment 3: Individual Reflective Piece | Pass ✅ - Merit |  
