@@ -31,6 +31,7 @@ This module is titled "Secure Software Development". It is the third module in t
 
 | Artefact                           | Grade                |
 | ---------------------------------- | -------------------- |
+| Module | Pass✅ |
 | Assignment 1: Team Design Document | Pass✅ - Distinction |
 | Assignment 2: Team Coding Output   | Pass✅ - Merit       |
 | Assignment 3: e-Portfolio          | Pass✅ - Merit           |
