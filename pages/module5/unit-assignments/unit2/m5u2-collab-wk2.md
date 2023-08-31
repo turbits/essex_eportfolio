@@ -39,4 +39,27 @@ __*References*__
 <br/>
 <br/>
 
-# Peer Response 2
+## Peer Response 2
+
+### Kuyayama, Charles - Initial Post
+
+![Kuyayama, C - Initial Post](images/initial_post-kuyayama_c.png)
+
+### Woodman, Trevor - Peer Response 2
+
+![Woodman, Trevor - Peer Response 2](images/tw-peer-response-2.png)
+
+__*Text Version*__
+
+Hi Charles, thank you for your post. Your post sheds light on a crucial aspect of technological advancement- its cultural and societal influence. The ACM Code of Ethics and Professional Conduct emphasizes the responsibility of organizations in shaping the systems that become integral to society's infrastructure. Your concern on westernization is thought-provoking; it's true that the globalization facilitated by technology can lead to the homogenization of cultures.
+
+The point made by Rau, et al., regarding the influence of cultural backgrounds on technology adoption and behaviour (Rau, et al., 2008) is an interesting point that I had not considered previously. Acknowledging that one size doesn't fit all is crucial for developers, and the notion that technology should be culturally sensitive and adaptable holds merit. Technology and software developers should consider the cultural implications of their work, and the impact it may have on the society that adopts it.
+
+I had also not considered that icons and screen layout would play a part in the impact on cultures and values. Often, seemingly minor aspects like how icons, layouts, and translations would appear to someone from another culture are overlooked or considered as an afterthought. The potential for misinterpretation or misunderstanding is high, and the impact of these aspects should be considered throughout the development lifecycle.
+
+You raise good points in your post, and I have learned of the importance of technology advancement and thorough consideration of how it will impact a people or culture. Unfortunately, you appear to be missing the case study component of the activity chosen from ACM's case studies list (ACM, n.d.), I would have enjoyed reading your take on one as you have brought up good points here. I would also suggest providing in-line citations for your references so the reader can easily identify the sources of your information and research.
+
+__*References*__
+
+- Association for Computing Machinery (n.d.). ACM Code of Ethics and Professional Conduct. Available at: https://www.acm.org/code-of-ethics/case-studies [Accessed 31 August 2023]
+- Rau, P.P., et al. (2008). Good computing systems for everyone - how on earth? Cultural aspects. Available at: https://www.tandfonline.com/doi/abs/10.1080/01449290701761250 [Accessed 31 August 2023]
