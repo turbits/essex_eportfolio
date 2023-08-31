@@ -901,6 +901,7 @@ nav ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
 }
