@@ -7,9 +7,7 @@ permalink: /pages/module5/unit-assignments/unit8/m5u8-worksheets.html
 
 # Unit 8: Summary Measures and Hypothesis Testing Worksheets
 
-Due to time constraints, these worksheets are only available as downloadable Excel worksheets and do not have a markdown version.
-
-Unfortunately, this unit had exceptionally confusing naming for the activities and the files, apologies for the readability issues. I am showing them here as they are referenced (in order) during the unit and in the worksheets for grading purposes.
+Unfortunately, this unit had exceptionally confusing naming for the activities and the files, apologies for any readability issues.
 
 ## Table of Contents
 - 👉[Unit 8: Activity: Summary Measures Worksheet](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet1-summary.html)
