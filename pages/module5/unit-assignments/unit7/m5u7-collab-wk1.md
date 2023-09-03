@@ -31,6 +31,11 @@ permalink: /pages/module5/unit-assignments/unit7/m5u7-collab-wk1.html
 
 ## Initial Post
 
+
+![TW Initial Post Unit 7 Collab](initial_post.png)
+
+__*Text Version*__
+
 The case study presented raises important ethical considerations surrounding the accuracy of information and its presentation. Abi is faced with an ethical dilemma regarding the proper hadnling of data analysis for the Whizzz cereal project.
 
 Upon reflection, it is quite clear that it would be unethical for Abi to manipulate the data intentionally, as this would compromise the integrity of the study and the trustworthiness of the results. The second part of this question presents an interesting consideration, and one that I believe is quite nuanced and contextually relevant. We can assume that the result that favoured the manufacturer would be the one that they would use in their advertising. In this context, I would argue that it would be unethical for Abi to suggest analyzing the data in a way that would support two or more conclusions for the purpose of providing a favourable result. According to ACM, Abi should consider the issue from a holistic view and evalute whether his actions will be in the best interest of society (ACM, 2018).
