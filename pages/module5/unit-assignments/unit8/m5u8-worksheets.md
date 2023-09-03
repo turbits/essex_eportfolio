@@ -3,66 +3,55 @@ layout: page
 permalink: /pages/module5/unit-assignments/unit8/m5u8-worksheets.html
 ---
 
-⬅️[Back](/pages/module5.html)
+⬅️[Back](/pages/module5/unit-assignments/unit8/m5u8.html)
 
 # Unit 8: Summary Measures and Hypothesis Testing Worksheets
 
 Unfortunately, this unit had exceptionally confusing naming for the activities and the files, apologies for any readability issues.
 
+Excel files are provided for each exercise in their respective sections.
+
+See the [description](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheets-activity-desc.html) page for the activity description.
+
 ## Table of Contents
-- 👉[Unit 8: Activity: Summary Measures Worksheet](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet1-summary.html)
-- 👉[Unit 8: Activity: Hypothesis Testing Worksheet](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet2-hypothesis.html)
-
-## Summary Measures Activities
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.1](#exercise-81)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.1 - Exe 8.1B.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.1B.xlsx)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.2](#exercise-82)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.2 - Exe 8.2B.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.2B.xlsx)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.3](#exercise-83)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.3 - Exe 8.3D.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.3D.xlsx)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.4](#exercise-84)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.4 - Exe 8.4G.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.4G.xlsx)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.5](#exercise-85)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.5 - Exe 8.4G.xlsx (uses same sheet)](/pages/module5/unit-assignments/unit8/exercises/Exe%208.4G.xlsx)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.6](#exercise-86)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.6 - Exe 8.6C.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.6C.xlsx)
-- 👉[Unit 8: Activity: Summary Measures Exercise 8.7](#exercise-87)
-
-## Hypothesis Testing Activities
-- 👉[Unit 8: Activity: Hypothesis Testing Exercise 8.1](#exercise-81)
+- 👉 [Unit 8: Summary Measures and Hypothesis Testing Activity Description](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheets-activity-desc.html)
+- 👉 [Unit 8: Activity: Summary Measures Worksheet (docx)](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet1-summary.docx)
+- 👉 [Unit 8: Activity: Hypothesis Testing Worksheet (docx)](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet2-hypothesis.docx)
+- 👉 [Unit 8: Activity: Summary Measures Answers](#summary-measures-answers)
+- 👉 [Unit 8: Activity: Hypothesis Testing Answers](#hypothesis-testing-answers)
 
 
-## Activity Description
+## Summary Measures Answers
 
-### Summary Measures and Hypothesis Testing Worksheets
-Review the additional notes on Inference and then complete the Summary Measures worksheet and the Hypothesis Testing worksheet in Excel or LibreOffice. The completed worksheets from Units 8 and 9 should be included in your e-Portfolio.
+### Summary Measures Exercise 8.1
 
-You will need to provide your interpretation of the results, based on the questions asked and from your analysis of the data. You can complete the worksheets before or after this week’s workshop.  You can submit your work in Unit 10 for formative feedback.
-
-### Learning Outcomes
-Evaluate critically existing literature, research design and methodology for the chosen topic, including data analysis processes.
-
-## Activity Answers
-
-### Exercise 8.1
+[Unit 8: Activity: Summary Measures Exercise 8.1 - Exe 8.1B.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.1B.xlsx)
 
 ***Briefly interpret your findings. What do these results tell you about the relative effectiveness of the two weight-reducing diets?***
 
 The results indicate that diet A is more effective than diet B. The mean weight loss for diet A is 5.341kg, while the mean weight loss for diet B is 3.710kg. Furthermore, the standard deviation is 2.536 for diet A and 2.769 for diet B, showing that diet B had slightly more varied results.
 
-### Exercise 8.2
+### Summary Measures Exercise 8.2
+
+[Unit 8: Activity: Summary Measures Exercise 8.2 - Exe 8.2B.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.2B.xlsx)
 
 ***Briefly interpret your findings. What do these results tell you about the relative effectiveness of the two weight-reducing diets?***
 
 In diet A, the mean is slightly lower than the median, indicating a slight negative skew. In diet B, it is similar, but the mean has a comparitively smaller deviation from the median, indicating a more symmetrical distribution of results.
 
-### Exercise 8.3
+### Summary Measures Exercise 8.3
+
+[Unit 8: Activity: Summary Measures Exercise 8.3 - Exe 8.3D.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.3D.xlsx)
 
 ***Briefly interpret your findings. What do these results tell you about the patterns of brand preferences for each of the two demographic areas?***
 
 Area 1 greatly prefers "Other" brand, comparitive to A or B. Area 2 has a comparitively more distributed preference, but still favours "Other". Brand A is the least popular in both areas.
 
+## Hypothesis Testing Answers
+
 ### Exercise 8.4
+
+[Unit 8: Activity: Hypothesis Testing Exercise 8.4 - Exe 8.4G.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.4G.xlsx)
 
 Agent1 and Agent2 are air filters, the values in these columns represent the impurity of the air after filtration per batch.
 
@@ -71,6 +60,8 @@ Agent1 and Agent2 are air filters, the values in these columns represent the imp
 The t-value is -3.26 with 11 df, and a p value of 0.003. The magnitude of the t-value indicates that there is a substantial difference between the two agents' mean impurity. Since the p-value is less than the conventional significance level of 0.05, we can reject the null hypothesis that the two agents are equally effective.
 
 ### Exercise 8.5
+
+[Unit 8: Activity: Hypothesis Testing Exercise 8.5 - Exe 8.4G.xlsx (uses same sheet)](/pages/module5/unit-assignments/unit8/exercises/Exe%208.4G.xlsx)
 
 ***Suppose instead a one-tailed test had been conducted to determine whether Filter Agent 1 was the more effective [agent]. What would your conclusions have been?***
 
@@ -84,6 +75,8 @@ Given the previous values: t-value = -3.26, df = 11, p-value = 0.003. Given that
 The one-tailed p-value is 0.003, which is less than the conventional significance level of 0.05. Ergo, we can reject the null hypothesis that Agent2 is as effective or less than Agent1, and conclude that Agent2 is more effective than Agent1.
 
 ### Exercise 8.6
+
+[Unit 8: Activity: Hypothesis Testing Exercise 8.6 - Exe 8.6C.xlsx](/pages/module5/unit-assignments/unit8/exercises/Exe%208.6C.xlsx)
 
 ***Assuming the data can be suitably distributed, complete an appropriate test of whether the population mean income for males exceeds that of females and interpret your findings. What assumptions underpin the validity of your analysis, and how could you validate them?***
 
