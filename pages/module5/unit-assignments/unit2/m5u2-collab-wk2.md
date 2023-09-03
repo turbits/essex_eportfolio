@@ -36,8 +36,7 @@ __*References*__
 
 - Tavani, H.T., (2012). Ethics and Technology: Controversies, Questions, and Strategies for Ethical Computing, 4th Edition. Available at: https://dl.acm.org/doi/abs/10.5555/2490723 [Accessed 31 August 2023]
 
-<br/>
-<br/>
+---
 
 ## Peer Response 2
 

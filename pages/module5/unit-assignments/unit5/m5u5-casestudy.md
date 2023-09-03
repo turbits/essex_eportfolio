@@ -7,7 +7,7 @@ permalink: /pages/module5/unit-assignments/unit5/m5u5-casestudy.html
 
 # Unit 5: Reflective Activity: Case Study: Inappropriate Use of Surveys
 
-- 👉[Case Study Answer](#case-study-answer)
+- 👉 [Case Study Answer](#case-study-answer)
 
 ## Activity Description
 
