@@ -786,26 +786,31 @@ table td {
 * h1 {
   color: #7f6599;
   font-size: 2.2rem !important;
-  font-weight: 800 !important;
-  font-family: "Space Mono", sans-serif;
+  font-weight: 700 !important;
 }
 * h2 {
-  color: #7f6599;
+  color: #9a77bd;
   font-size: 1.9rem !important;
-  font-weight: 400 !important;
-  font-family: "Space Mono", sans-serif;
 }
 * h3 {
-  color: #7f6599;
+  color: #9a77bd;
   font-size: 1.5rem !important;
-  font-weight: 400 !important;
-  font-family: "Space Mono", sans-serif;
 }
 * h4 {
-  color: #7f6599;
+  color: #9a77bd;
   font-size: 1.4rem !important;
-  font-weight: 400 !important;
+}
+* h1,
+* h2,
+* h3,
+* h4 {
   font-family: "Space Mono", sans-serif;
+}
+* h2,
+* h3,
+* h4 {
+  font-style: italic;
+  font-weight: 400 !important;
 }
 
 body {
