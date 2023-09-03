@@ -31,7 +31,7 @@ This module is titled "Object Oriented Programming". It is the second module in 
 
 | Artefact                            | Grade                |
 | ----------------------------------- | -------------------- |
-| Module | Pass✅ |
+| **Module** | Pass✅ |
 | Assignment 1: System Design         | Pass✅               |
 | Assignment 2: System Implementation | Pass✅ - Distinction |
 | Assignment 3: e-Portfolio           | Pass✅ - Merit       |

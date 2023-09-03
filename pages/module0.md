@@ -23,5 +23,5 @@ As part of the induction, we were to write a 750 word essay on the topic of "Dis
 
 | Artefact        | Grade  |
 | --------------- | ------ |
-| Module | Pass✅ |
+| **Module** | Pass✅ |
 | Induction Essay | Pass✅ |
