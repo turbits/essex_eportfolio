@@ -32,7 +32,7 @@ permalink: /pages/module5/unit-assignments/unit7/m5u7-collab-wk1.html
 ## Initial Post
 
 
-![TW Initial Post Unit 7 Collab](initial_post.png)
+![TW Initial Post Unit 7 Collab](images/trevor-initial-post.png)
 
 __*Text Version*__
 
