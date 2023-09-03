@@ -32,9 +32,9 @@ This module is titled **Research Methods and Professional Practice**, it is part
   - [Unit 7: Validity and Generalisability in Research](/pages/module5/unit-assignments/unit7/m5u7.html)
   - [Unit 8: Inferential Statistics](/pages/module5/unit-assignments/unit8/m5u8.html)
   - [Unit 9: Analysing Qualitative Data](/pages/module5/unit-assignments/unit9/m5u9.html)
-  - 🟨[Unit 10: Research Writing](/pages/module5/unit-assignments/unit10/m5u10.html)
-  - 🟥[Unit 11: Professional Development - Your e-Portfolio](/pages/module5/unit-assignments/unit11/m5u11.html)
-  - 🟥[Unit 12: Project Management and Managing Risk](/pages/module5/unit-assignments/unit12/m5u12.html)
+  - [Unit 10: Research Writing](/pages/module5/unit-assignments/unit10/m5u10.html)
+  - [Unit 11: Professional Development - Your e-Portfolio](/pages/module5/unit-assignments/unit11/m5u11.html)
+  - [Unit 12: Project Management and Managing Risk](/pages/module5/unit-assignments/unit12/m5u12.html)
 
 ## 🎓 Grading
 
