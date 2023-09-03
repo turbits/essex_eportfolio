@@ -3,7 +3,7 @@ layout: page
 permalink: /pages/module5/unit-assignments/unit8/m5u8-description.html
 ---
 
-⬅️[Back](/pages/module5.html)
+⬅️[Back](/pages/module5/unit-assignments/unit8/m5u8.html)
 
 # Unit 8: Inferential Statistics - Unit Description
 

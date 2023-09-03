@@ -26,7 +26,7 @@ permalink: /pages/module5/unit-assignments/unit1/m5u1-collab-wk1.html
 
 ### Initial Post
 
-**Case: Malware Disruption**
+__*Case: Malware Disruption*__
 
 Rogue's activities immediately raised jurisdictional issues; Rogue, based in a country with inadequate laws to regulate their hosting activities, was essentially free to continue their activities and to strongly resist international efforts to intervene. This is still a problem today, and highlights ongoing difficulty in addressing cybercrime when perpetrators are based in jurisdictions with limited legal frameworks or other jurisdictional issues such as state-sponsorship or transnationality. According to the United Nations Conference on Trade and Development (UNCTAD), 13% of countries, including Belarus, Belgium, and Libya, have no cybercrime legislation (UNCTAD, 2021).
 
@@ -36,7 +36,7 @@ While the professionalism of Rogue Services was lacking, the computing professio
 
 A takeaway consideration of ethics surrounding malware use is vigilantism. In the above example, some parties would consider their actions vigilantism. They were using malware as a tool to remove a malicious actor. Regardless of BCS principles or laws their actions fit the definition. Would using malware for the public interest in a similar manner to the Rogue Services situation, but in a manner that would breach several BCS principles, be acceptable? A recent incident in 2021 involved a vigilante using malware to modify the hosts file on computers to prevent the user from navigating to malicious websites (Brandt, 2021). The actions of the actor involved were unethical and illegal, but ultimately considered the public interest and the greater good. This incident highlights the importance of ethics in computing and the need for computing professionals and other individuals to deeply consider the impact of their actions on the public and the industry as a whole.
 
-References
+__*References*__
 
 - Association for Computing Machinery's Committee on Professional Ethics (n.d.). Case: Malware Disruption. Available at: https://ethics.acm.org/code-of-ethics/using-the-code/case-malware-disruption/ [Accessed 31 August 2023]
 - British Computer Society (2022). BCS Code of Conduct. Available at: https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/ [Accessed 31 August 2023]

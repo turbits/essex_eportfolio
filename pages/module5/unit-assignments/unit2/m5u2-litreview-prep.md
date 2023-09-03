@@ -85,9 +85,3 @@ Outcomes:
 - Further research in the field as the pandemic progresses is required to support long-term studies of the affects of communication technology on employee productivity.
 
 Overall, the review suggests the importance of understanding and effectively managing the relationship between communication technology and employee productivity in the workplace during government-mandated lockdowns. It emphasizes the need for a balanced approach that considers both the benefits and the drawbacks of a remote work environment, and the importance of providing adequate support for employees to optimize productivity and promote well-being in an actively evolving work landscape.
-
----
-
-As with other sets of guiding questions in this book, select those questions that are relevant to your context, add others as appropriate, and decide the order in which you will address them to communicate effectively with your audience.
-
-Source: Healey, M., Matthews, K., & Cook-Sather, A. (2020) Writing about learning and teaching in higher education: Creating and contributing to scholarly conversations across a range of genres. Center for Engaged Learning Open-Access Books, Elon University. 142-152. 
