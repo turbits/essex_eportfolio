@@ -9,7 +9,7 @@ permalink: /pages/module4/unit-assignments/unit4/case-study.html
 
 ## Table of Contents
 
-- 👉[PurpleSec Sample Vulnerability Assessment Report](https://purplesec.us/wp-content/uploads/2019/12/Sample-Vulnerability-Assessment-Report-PurpleSec.pdf)
+- [PurpleSec Sample Vulnerability Assessment Report](https://purplesec.us/wp-content/uploads/2019/12/Sample-Vulnerability-Assessment-Report-PurpleSec.pdf)
 
 ## Activity Description
 

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 .highlight .c {
   color: #998;
   font-style: italic;
@@ -787,25 +787,25 @@ table td {
   color: #7f6599;
   font-size: 2.2rem !important;
   font-weight: 800 !important;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 * h2 {
   color: #7f6599;
   font-size: 1.9rem !important;
   font-weight: 400 !important;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 * h3 {
   color: #7f6599;
   font-size: 1.5rem !important;
   font-weight: 400 !important;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 * h4 {
   color: #7f6599;
   font-size: 1.4rem !important;
   font-weight: 400 !important;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 
 body {
@@ -826,7 +826,7 @@ a:hover {
 }
 
 hr {
-  border-top: 4px dashed #0d0d0d;
+  border-top: 2px solid #7f6599;
   border-bottom: none;
 }
 
@@ -846,7 +846,10 @@ code {
   justify-content: center;
   align-items: center;
   border-top: none;
-  border-bottom: 4px dashed #0d0d0d;
+  border-bottom: 6px dashed #7f6599;
+}
+.site-header a {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -866,7 +869,7 @@ code {
   align-items: center;
   flex-wrap: nowrap;
   color: #0d0d0d;
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Space Mono", sans-serif;
 }
 .site-title:hover {
   text-decoration: none;
@@ -882,8 +885,9 @@ code {
 }
 .site-title .site-title-text .title-text {
   font-size: 1.8rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
+  font-style: italic;
   margin: 0;
   padding: 0;
 }

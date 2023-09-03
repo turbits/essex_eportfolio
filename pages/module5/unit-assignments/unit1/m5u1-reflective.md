@@ -7,7 +7,7 @@ permalink: /pages/module5/unit-assignments/unit1/m5u1-reflective.html
 
 # Unit 1 Reflective Activity: Ethics in Computing
 
-- 👉 [Reflective Activity Description](/pages/module5/unit-assignments/unit1/m5u1-reflective-description.html)
+-  [Reflective Activity Description](/pages/module5/unit-assignments/unit1/m5u1-reflective-description.html)
 
 <br/>
 <br/>

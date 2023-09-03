@@ -7,7 +7,7 @@ permalink: /pages/module4/unit-assignments/unit2/seminar-prep.html
 
 # Seminar Activity - The Solar Winds Breach Case Study
 
-👉[My Case Study](#my-case-study)
+[My Case Study](#my-case-study)
 
 ## Instructions
 

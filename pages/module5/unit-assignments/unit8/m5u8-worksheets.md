@@ -14,11 +14,11 @@ Excel files are provided for each exercise in their respective sections.
 See the [description](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheets-activity-desc.html) page for the activity description.
 
 ## Table of Contents
-- 👉 [Unit 8: Summary Measures and Hypothesis Testing Activity Description](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheets-activity-desc.html)
-- 👉 [Unit 8: Activity: Summary Measures Worksheet (docx)](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet1-summary.docx)
-- 👉 [Unit 8: Activity: Hypothesis Testing Worksheet (docx)](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet2-hypothesis.docx)
-- 👉 [Unit 8: Activity: Summary Measures Answers](#summary-measures-answers)
-- 👉 [Unit 8: Activity: Hypothesis Testing Answers](#hypothesis-testing-answers)
+-  [Unit 8: Summary Measures and Hypothesis Testing Activity Description](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheets-activity-desc.html)
+-  [Unit 8: Activity: Summary Measures Worksheet (docx)](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet1-summary.docx)
+-  [Unit 8: Activity: Hypothesis Testing Worksheet (docx)](/pages/module5/unit-assignments/unit8/worksheets/m5u8-worksheet2-hypothesis.docx)
+-  [Unit 8: Activity: Summary Measures Answers](#summary-measures-answers)
+-  [Unit 8: Activity: Hypothesis Testing Answers](#hypothesis-testing-answers)
 
 
 ## Summary Measures Answers

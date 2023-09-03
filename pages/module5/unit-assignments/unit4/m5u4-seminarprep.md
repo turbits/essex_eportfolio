@@ -9,8 +9,8 @@ permalink: /pages/module5/unit-assignments/unit4/m5u4-seminarprep.html
 
 ## Table of Contents
 
-- 👉 [Activity Description](#activity-description)
-- 👉 [Case Study](#case-study)
+-  [Activity Description](#activity-description)
+-  [Case Study](#case-study)
 
 ## Activity Description
 

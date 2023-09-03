@@ -9,7 +9,7 @@ permalink: /pages/module3/unit-assignments/unit1/peer-response-2/m3u1p2-txt.html
 
 This is a unit assignment component of [Secure Software Development](/pages/module3.html) - [Unit 1](/pages/module3/unit-assignments/unit1/m3u1.html).
 
-- 👉[Image Version](/pages/module3/unit-assignments/unit1/peer-response-2/m3u1p2.html)
+- [Image Version](/pages/module3/unit-assignments/unit1/peer-response-2/m3u1p2.html)
 
 #### Daud Abassi's Initial Post
 
