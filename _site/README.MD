@@ -4,9 +4,11 @@ Author: Trevor Woodman
 
 Site: https://essex.trevorwoodman.ca
 
-This eportfolio is a repository of code, reflective pieces, and other essays as required by several _University of Essex, Post Graduate Computer Science Degree_ courses.
+This ePortfolio is a repository of code, reflective pieces, and other essays as required by several _University of Essex, Post Graduate Computer Science Degree_ courses.
 
-I have set up a basic Jekyll site to display this ePortfolio. The site is hosted using GitHub pages.
+I have set up a basic Jekyll site to display this ePortfolio. I self-host this site instead of using GitHub pages. If you are marking a particular module and are concerned of the state of the site at the time of marking; I do not modify the content of the site from the time I submit it to the module until the beginning of another one. You can verify this is true by checking when `main` was last updated.
+
+I solemnly swear to not update the live site post submission and before the start of another module with the exception being a correction relating to mine or others' privacy, or a significant error in the content unrelated to the coursework I have submitted. Any critical changes will be clearly documented on commit.
 
 ## Build Project
 
@@ -17,13 +19,13 @@ I have set up a basic Jekyll site to display this ePortfolio. The site is hosted
 - Run `bundle install`
 - Run `bundle exec jekyll serve`
 
-## Deployment
+## Deployment (notes for me)
 
 Needs to be set up to use GitHub workflow but don't have time.
 
 - Run project to build `bundle exec jekyll serve`
 - In terminal, navigate to `_site` folder
-- Run `scp -r . <username>@<ip>:/var/www/essex.trevorwoodman.ca/html/`
+- Run `scp -r . <username>@<ip>:<dir>`
 
 ## Miscellaneous
 
