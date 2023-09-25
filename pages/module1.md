@@ -24,7 +24,7 @@ There were three assessed assignment parts for this module, each of which is lis
 
 | Artefact                                                    | Grade                |
 | ----------------------------------------------------------- | -------------------- |
-| **Module** | Pass✅ |
-| Assignment 1: Part 1: Data Structures and Algorithm Design  | Pass✅ - Distinction |
-| Assignment 1: Part 2: Algorithm and Programming Development | Pass✅ - Distinction |
-| Assignment 1: Part 3: MySQL                                 | Pass✅ - Distinction |
+| **Module** | Pass ✅ |
+| Assignment 1: Part 1: Data Structures and Algorithm Design  | Pass ✅ - Distinction |
+| Assignment 1: Part 2: Algorithm and Programming Development | Pass ✅ - Distinction |
+| Assignment 1: Part 3: MySQL                                 | Pass ✅ - Distinction |

@@ -40,7 +40,7 @@ This module is titled **Research Methods and Professional Practice**, it is part
 
 | Artefact                           | Grade                |
 | ---------------------------------- | -------------------- |
-| **Module** | Ungraded 🚧 |
+| **Module** | Pass ✅ |
 | Assignment 1: Literature Review | Pass ✅ |
 | Assignment 2: Research Proposal Presentation | Failed ❌ |
-| Assignment 3: ePortfolio | Ungraded 🚧 |  
+| Assignment 3: ePortfolio | Pass ✅ - Distinction |  
