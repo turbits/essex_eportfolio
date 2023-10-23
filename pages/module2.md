@@ -3,6 +3,8 @@ layout: page
 permalink: /pages/module2.html
 ---
 
+⬅️[Home](/index.html)
+
 # 📦️ Module 2: Object Oriented Programming
 
 This module is titled "Object Oriented Programming". It is the second module in the _University of Essex, Post Graduate Computer Science Degree_.

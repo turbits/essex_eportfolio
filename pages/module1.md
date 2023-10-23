@@ -3,7 +3,7 @@ layout: page
 permalink: /pages/module1.html
 ---
 
-⬅️[Back](/index.html)
+⬅️[Home](/index.html)
 
 # 🧑‍💻 Module 1: Launching into Computer Science
 

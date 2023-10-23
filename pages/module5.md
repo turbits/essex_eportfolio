@@ -4,6 +4,8 @@ permalink: /pages/module5.html
 # closer: assets/x.jpg
 ---
 
+⬅️[Home](/index.html)
+
 # ✍️ Module 5: Research Methods and Professional Practice
 
 This module is titled **Research Methods and Professional Practice**, it is part of the ***University of Essex, Post Graduate Computer Science Degree***.

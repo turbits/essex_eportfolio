@@ -3,7 +3,7 @@ layout: page
 permalink: /pages/module0.html
 ---
 
-⬅️[Back](/index.html)
+⬅️[Home](/index.html)
 
 # ✨ Module 0: Induction
 

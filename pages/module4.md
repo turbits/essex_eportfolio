@@ -4,6 +4,8 @@ permalink: /pages/module4.html
 closer: assets/memes/bonk.jpg
 ---
 
+⬅️[Home](/index.html)
+
 # 🌐 Module 4: Network Security
 
 This module is titled **Network Security**, it is part of the ***University of Essex, Post Graduate Computer Science Degree***.
