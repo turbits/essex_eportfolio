@@ -45,6 +45,6 @@ This module is titled **Software Engineering Project Management**, it is part of
 | Artefact                           | Grade                |
 | ---------------------------------- | -------------------- |
 | **Module** | Ungraded 🚧 |
-| Assignment 1: Project Report | Ungraded 🚧 |
+| Assignment 1: Project Report | Pass ✅ |
 | Assignment 2: Presentation | Ungraded 🚧 |
 | Assignment 3: ePortfolio | Ungraded 🚧 |  
