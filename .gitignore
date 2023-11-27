@@ -2,6 +2,7 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
+**/*.pyc
 **/~$*.docx
 **/~$*.pptx
 **/~*.tmp
