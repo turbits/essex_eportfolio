@@ -29,14 +29,14 @@ This module is titled **Software Engineering Project Management**, it is part of
   - [Unit 2: Study: Why Projects Fail and Gathering Requirements Exercise](/pages/module6/unit-assignments/unit2/m6u2.html)
   - [Unit 3: Estimating, Planning, and Risk](/pages/module6/unit-assignments/unit3/m6u3.html)
   - [Unit 4: Estimating Tools and Risk Assessment](/pages/module6/unit-assignments/unit4/m6u4.html)
-  - [Unit 5: User Experience](/pages/module6/unit-assignments/unit5/m6u5.html)
+  - [Unit 5: User Experience](/pages/module6/unit-assignments/unit6/m6u6.html)
   - [Unit 6: pytest and Test-Driven Development](/pages/module6/unit-assignments/unit6/m6u6.html)
   - [Unit 7: Software Development Life Cycles](/pages/module6/unit-assignments/unit7/m6u7.html)
   - [Unit 8: Python Data Structures](/pages/module6/unit-assignments/unit8/m6u8.html)
-  - [Unit 9: ???](/pages/module6/unit-assignments/unit9/m5u9.html)
-  - [Unit 10: ???](/pages/module6/unit-assignments/unit10/m5u10.html)
-  - [Unit 11: ???](/pages/module6/unit-assignments/unit11/m5u11.html)
-  - [Unit 12: ???](/pages/module6/unit-assignments/unit12/m5u12.html)
+  - [Unit 9: Quality Management Strategy](/pages/module6/unit-assignments/unit9/m6u9.html)
+  - [Unit 10: Software Quality Monitoring in Python](/pages/module6/unit-assignments/unit10/m6u10.html)
+  - [Unit 11: Software Engineering Project Management: Future Trends](/pages/module6/unit-assignments/unit11/m6u11.html)
+  - [Unit 12: The Case for the Future Direction of Software Engineering Project Management](/pages/module6/unit-assignments/unit12/m6u12.html)
 
 
 
