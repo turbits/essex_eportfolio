@@ -19,7 +19,6 @@ This module is titled **Software Engineering Project Management**, it is part of
 <br/>
 
 ## Table of Contents
-
 - **Assignments**
   - 📃[Assignment 1: Project Report and Peer Review 1](/pages/module6/assignment1/m6a1.html)
   - 📃[Assignment 2: Presentation and Peer Review 2](/pages/module6/assignment2/m6a2.html)
@@ -37,7 +36,6 @@ This module is titled **Software Engineering Project Management**, it is part of
   - [Unit 10: Software Quality Monitoring in Python](/pages/module6/unit-assignments/unit10/m6u10.html)
   - [Unit 11: Software Engineering Project Management: Future Trends](/pages/module6/unit-assignments/unit11/m6u11.html)
   - [Unit 12: The Case for the Future Direction of Software Engineering Project Management](/pages/module6/unit-assignments/unit12/m6u12.html)
-
 
 
 ## 🎓 Grading
