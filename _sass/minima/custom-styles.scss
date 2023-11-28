@@ -73,10 +73,12 @@ hr {
     background-color: #fffcfb !important;
 }
 
-code {
+code,
+pre {
     font-family: "JetBrains Mono", monospace;
     font-size: 1rem;
     background-color: #fffcfb !important;
+    max-width: 800px;
 }
 
 .site-header {
