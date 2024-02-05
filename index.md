@@ -14,9 +14,10 @@ This ePortfolio is a repository of my code, reflective pieces, and other essays 
 ### Table of Contents
 
 - ✨[Module 0 - Induction](/pages/module0.html)
-- 🧑‍💻[Module 1 - Launching into Computer Science](/pages/module1.html)
+- 🔬[Module 1 - Launching into Computer Science](/pages/module1.html)
 - 📦[Module 2 - Object Oriented Programming](/pages/module2.html)
-- 🔏[Module 3 - Secure Software Development](/pages/module3.html)
+- 💻[Module 3 - Secure Software Development](/pages/module3.html)
 - 🌐[Module 4 - Network Security](/pages/module4.html)
 - ✍️[Module 5 - Research Methods and Professional Practices](/pages/module5.html)
-- 📈[Module 6 - Software Engineering Project Management](/pages/module6.html)
+- 📊[Module 6 - Software Engineering Project Management](/pages/module6.html)
+- 🔏[Module 7 - Information Security Management](/pages/module7.html)
