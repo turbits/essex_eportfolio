@@ -5,7 +5,7 @@ permalink: /pages/module3.html
 
 ⬅️[Home](/index.html)
 
-# 👨‍💻 Module 3: Secure Software Development
+# 💻 Module 3: Secure Software Development
 
 This module is titled "Secure Software Development". It is the third module in the _University of Essex, Post Graduate Computer Science Degree_.
 

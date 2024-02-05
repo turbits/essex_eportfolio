@@ -7,6 +7,7 @@ permalink: /pages/module7/assignment1/m7a1-desc.html
 
 # Assignment 1: Risk Identification Report - Description
 
+*Copied from the [Assignment page](https://www.my-course.co.uk/mod/assign/view.php?id=943392) on 05 Feb 2024.*
 
 Due: Monday, 19 February 2024, 11:55 PM
 
