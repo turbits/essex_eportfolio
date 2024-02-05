@@ -5,7 +5,7 @@ permalink: /pages/module1.html
 
 ⬅️[Home](/index.html)
 
-# 🧑‍💻 Module 1: Launching into Computer Science
+# 🔬 Module 1: Launching into Computer Science
 
 This module is titled "Launching into Computer Science". It is the first module in the _University of Essex, Post Graduate Computer Science Degree_.
 

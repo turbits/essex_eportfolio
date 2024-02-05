@@ -6,7 +6,7 @@ permalink: /pages/module6.html
 
 ⬅️[Home](/index.html)
 
-# ✍️ Module 6: Software Engineering Project Management
+# 📊 Module 6: Software Engineering Project Management
 
 This module is titled **Software Engineering Project Management**, it is part of the ***University of Essex, Post Graduate Computer Science Degree***.
 
@@ -42,7 +42,7 @@ This module is titled **Software Engineering Project Management**, it is part of
 
 | Artefact                           | Grade                |
 | ---------------------------------- | -------------------- |
-| **Module** | Ungraded 🚧 |
+| **Module** | Pass ✅ - Merit |
 | Assignment 1: Project Report | Pass ✅ |
-| Assignment 2: Presentation | Ungraded 🚧 |
-| Assignment 3: ePortfolio | Ungraded 🚧 |  
+| Assignment 2: Presentation | Pass ✅ |
+| Assignment 3: ePortfolio | Pass ✅ |  
