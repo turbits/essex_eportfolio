@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /module7/assignment1/m7a1-risk-identification-report.html
+permalink: /pages/module7/assignment1/m7a1-risk-identification-report.html
 ---
 
 ⬅️[Module 7](/pages/module7/assignment1/m7a1.html)
