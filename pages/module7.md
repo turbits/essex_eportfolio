@@ -32,6 +32,6 @@ This module is titled **Information Security Management**, it is part of the ***
 | Artefact                           | Grade                |
 | ---------------------------------- | -------------------- |
 | **Module** | Ungraded 🚧 |
-| Assignment 1: Project Report | Ungraded 🚧 |
-| Assignment 2: Presentation | Ungraded 🚧 |
-| Assignment 3: ePortfolio | Ungraded 🚧 |  
+| Assignment 1: Project Report | Pass - Distinction ✅ |
+| Assignment 2: Python Attack Tree Visualizer Software | Ungraded 🚧 |
+| Assignment 3: ePortfolio/Reflective | Ungraded 🚧 |  
