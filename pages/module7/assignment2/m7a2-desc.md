@@ -5,7 +5,7 @@ permalink: /pages/module7/assignment2/m7a2-desc.html
 
 ⬅️[Module 7](/pages/module7.html)
 
-# Assignment 2: Executive Summary and App Presentation
+# Assignment 2: Executive Summary and App Presentation - Description
 
 *Copied from the [Assignment page](https://www.my-course.co.uk/mod/assign/view.php?id=943412) on 05 Mar 2024.*
 
@@ -29,6 +29,7 @@ You should submit your code in a zip file together with screenshots showing the 
 
 1. You should include a readme file that explains how the code should be installed and run, along with your reference list and any general comments about the code and application design.
 2. Be prepared to demonstrate your code toyour tutor in one-to-one sessions in seminars and/ or office slots.
+
 Presentation and Structure of your findings (weighted at 10%) includes spelling, code quality organisation, as well as evidence of proofreading. You will also be assessed on the correct use (and format) of citations and references in your work (Academic Integrity weighted at 10%).
 
 **Please also note that appendices should not be used to extend the core report** as reports should stand alone, complete and concise, without the appendices. They should really only be used if required, and only for supplementary and/ or supporting information. **One key part of the exercises in this module is the need to be to be able to express ideas succinctly, concisely and with necessary brevity.**
